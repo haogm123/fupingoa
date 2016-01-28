@@ -1,0 +1,486 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<link rel="stylesheet" type="text/css" href="template/default/content/css/style.css">
+<script language="javascript" type="text/javascript" src="template/default/js/jquery.min.js"></script>
+<script type="text/javascript"> 
+filenumber_show()
+function filenumber_show()
+{
+   jQuery.ajax({
+      type: 'GET',
+      url: 'admin.php?ac=file&fileurl=public&officeid=<?php echo $_GET['fileid']?>&officetype=1&'+new Date(),
+      success: function(data){
+		  if(data!=''){
+			  $("#filenumber").html(data);
+		  }else{
+			  $("#filenumber").html('还没有附件!');
+		  }
+      }
+   });
+}
+fileoffice_show()
+function fileoffice_show()
+{
+   jQuery.ajax({
+      type: 'GET',
+      url: 'admin.php?ac=file&do=office&fileurl=public&viewtype=<?php echo $viewtype;?>&officeid=<?php echo $_GET['fileid']?>&officetype=1&'+new Date(),
+      success: function(data){
+		  if(data!=''){
+			  $("#filenumberoffice").html(data);
+		  }else{
+			  $("#filenumberoffice").html('还没有文档!');
+		  }
+      }
+   });
+}
+function preview(oper){
+	if (oper < 10){
+		bdhtml=window.document.body.innerHTML;//获取当前页的html代码
+		sprnstr="<!--startprint"+oper+"-->";//设置打印开始区域
+		eprnstr="<!--endprint"+oper+"-->";//设置打印结束区域
+		prnhtml=bdhtml.substring(bdhtml.indexOf(sprnstr)+18); //从开始代码向后取html
+		prnhtml=prnhtml.substring(0,prnhtml.indexOf(eprnstr));//从结束代码向前取html
+		window.document.body.innerHTML=prnhtml;
+		window.print();
+		window.document.body.innerHTML=bdhtml;
+	}else{
+		window.print();
+	}
+}
+</script>
+<style type="text/css" media=print>
+.noprint{display : none }
+</style>
+<title>OA办公系统</title>
+ 
+</head>
+<body class="bodycolor">
+<?php if($_GET['print']!=''){?>
+<table width="90%" border="0" align="center" cellpadding="3" cellspacing="0" class="small">
+  <tr>
+    <td class="Big"> 
+	<span style="font-size:12px; float:right; margin-right:80px;">
+	<a href="admin.php?ac=attachment&do=view&fileurl=app&fileid=<?php echo $_GET['fileid']?>&apptype=<?php echo $_GET['apptype']?>" style="font-size:12px;">| 返回</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#" onclick="window.print();" style="font-size:12px; color:#FF0000">打印公文</a></span>
+    </td>
+  </tr>
+</table>
+<?php }else{?>
+<table width="90%" border="0" align="center" cellpadding="3" cellspacing="0" class="small">
+  <tr>
+    <td class="Big"><img src="template/default/content/images/notify_new.gif" align="absmiddle"><span class="big3"> <?php echo $row['title']?>&nbsp;&nbsp;[查看]</span>&nbsp;&nbsp;&nbsp;&nbsp;
+	<span style="font-size:12px; float:right; margin-right:20px;">
+	<!--
+	<a href="admin.php?ac=approval&do=personnel&fileurl=app&fileid=<?php echo $_GET['fileid']?>&apptype=<?php echo $_GET['apptype']?>"> 审批 </a>-->
+	<a href="admin.php?ac=<?php echo $ac?>&fileurl=<?php echo $fileurl?>&type=2" style="font-size:12px;">| 返回列表页</a>&nbsp;&nbsp;|&nbsp;&nbsp;	
+	<a href="admin.php?ac=attachment&do=view&fileurl=app&fileid=<?php echo $_GET['fileid']?>&apptype=<?php echo $_GET['apptype']?>&print=1" style="font-size:12px; color:#FF0000">打印公文</a></span>
+    </td>
+  </tr>
+</table>
+
+<table border="0" width="90%" align="center" style="margin-top:20px;">
+	<tr>
+      <td width="90%" align="right" style="font-size:14px; font-weight:900;">来文日期：<?php echo $row['receiptdate']?></td>
+    </tr>
+	</table>
+<table class="TableBlock" border="0" width="90%" align="center" style="margin-top:10px;">
+	<tr>
+      <td nowrap class="TableHeader" colspan="2"><b>&nbsp;来文内容处理</b></td>
+    </tr>
+	
+	<tr>
+      <td colspan="2" style="padding-left:30px; background:#ffffff;padding-right:30px;padding-top:10px;padding-bottom:10px;"> 
+<?php }?>
+<!--startprint1-->
+<style>
+.tdtop{
+ 	font-size: 20pt;
+ 	color: #FC3C03;
+ 	font-family: 宋体;
+ 	font-weight: bold;
+}
+
+.titleFont{
+ 	font-size: 11pt;
+	color: #FC3C03;
+	font-family: 楷体_GB2312;
+}
+
+.inputDocStyle {
+	BORDER-TOP: #8B8B8B 0px solid; 
+	BORDER-BOTTOM: #8B8B8B 0px solid; 
+	BORDER-LEFT: #8B8B8B 0px solid; 
+	BORDER-RIGHT: #8B8B8B 0px solid; 
+ 	font-size: 14pt;
+	width: 100%;
+	HEIGHT: 25px; 
+	BACKGROUND-COLOR: #F8E5E4;
+}
+
+.inputTextDocStyle {
+	BORDER-TOP: #8B8B8B 0px solid; 
+	BORDER-BOTTOM: #8B8B8B 0px solid; 
+	BORDER-LEFT: #8B8B8B 0px solid; 
+	BORDER-RIGHT: #8B8B8B 0px solid; 
+ 	font-size: 14pt;
+	width: 100%;
+	HEIGHT: 100%; 
+	BACKGROUND-COLOR: #F8E5E4;
+}
+
+.Selectdocstyle {
+	width: 100%;
+	HEIGHT: 100%; 
+	BORDER-TOP: #7F9DB9 0px solid; 
+	BORDER-BOTTOM: #7F9DB9 0px solid; 
+	BORDER-LEFT: #7F9DB9 0px solid; 
+	BORDER-RIGHT: #7F9DB9 0px solid; 
+	BACKGROUND-COLOR: #F8E5E4;
+}
+
+.sendTableStyle{
+  	border-top:solid 2px #FC3C03; 
+  	border-left:solid 2px #FC3C03; 
+  	border-right:solid 1px #FC3C03; 
+  	border-bottom:solid 2px #FC3C03; 
+}
+
+.sendTd{
+  	border-bottom:solid 1px #FC3C03; 
+  	border-right:solid 1px #FC3C03; 
+ 	PADDING-TOP: 6px; 
+	PADDING-LEFT: 6px; 
+ 	font-size: 11pt;
+	color: #FC3C03;
+	font-family: 楷体_GB2312;
+}
+
+.sendTdBottom{
+  	border-right:solid 1px #FC3C03; 
+ 	PADDING-TOP: 6px; 
+	PADDING-LEFT: 6px; 
+ 	font-size: 11pt;
+	color: #FC3C03;
+	font-family: 楷体_GB2312;
+}
+
+.ReceiveTableStyle {
+  	border-top:solid 2px #000000; 
+  	border-left:solid 2px #000000; 
+  	border-right:solid 1px #000000; 
+  	border-bottom:solid 1px #000000; 
+}
+
+.ReceiveTd{
+  	border-bottom:solid 1px #000000; 
+  	border-right:solid 1px #000000; 
+ 	font-size: 11pt;
+	color: #000000;
+	font-family: 楷体_GB2312;
+}
+
+
+
+
+
+.head {
+	font-size: 18pt; 
+	font-family:楷体_GB2312; 
+	color:red; 
+	padding:5px
+}
+
+.littlehead {
+	font-size: 11pt; 
+	font-family:楷体_GB2312; 
+	color:red;
+}
+
+.top {
+	font-size: 11pt; 
+	font-family:楷体_GB2312; 
+	color:red; 
+	border-top: 1 solid red;
+}
+
+.bottom {
+	font-size: 11pt; 
+	font-family:楷体_GB2312; 
+	color:red; 
+}
+
+.lefttop {
+	font-size: 11pt; 
+	font-family:楷体_GB2312; 
+	color:red; 
+	border-left: 1 solid red; 
+	border-top: 1 solid red;
+}
+
+.lefttopnored {
+	font-size: 11pt; 
+	font-family:楷体_GB2312; 
+	border-left: 1 solid red; 
+	border-top: 1 solid red;
+}
+
+.topbottom {
+	font-size: 11pt; 
+	font-family:楷体_GB2312;
+	border-top: 1 double red;  
+	border-bottom: 1 double red; 
+	color:red; 
+	padding:5px
+}
+
+.lefttopbottom {
+	font-size: 11pt; 
+	font-family:楷体_GB2312; 
+	color:red; 
+	border-left: 1 solid red; 
+	border-top: 1 solid red;
+	border-bottom: 1 solid red;
+}
+
+
+</style>
+
+	  <TABLE CLASS=ReceiveTableStyle ALIGN=center BORDER=0 CELLSPACING=0 CELLPADDING=0 ID=docTable>
+	<TR HEIGHT=30 ALIGN=center>
+		<TD CLASS=ReceiveTd WIDTH=80>来文编号</TD>
+		<TD CLASS=ReceiveTd WIDTH=200><?php echo $row['number']?></TD>
+		<TD CLASS=ReceiveTd WIDTH=60>份数</TD>
+		<TD CLASS=ReceiveTd WIDTH=100><?php echo $row['shares']?></TD>
+		<TD CLASS=ReceiveTd WIDTH=60>附件</TD>
+		<TD CLASS=ReceiveTd WIDTH=100><?php echo $row['annex']?></TD>
+	</TR>
+	<TR HEIGHT=30 ALIGN=center>
+		<TD CLASS=ReceiveTd>来文机关</TD>
+		<TD CLASS=ReceiveTd><?php echo $row['organ']?></TD>
+		<TD CLASS=ReceiveTd>来文字号</TD>
+		<TD CLASS=ReceiveTd COLSPAN=3><?php echo $row['fontsize']?></TD>
+	</TR>
+	<TR HEIGHT=30 ALIGN=center>
+		<TD CLASS=ReceiveTd>来文标题</TD>
+		<TD CLASS=ReceiveTd COLSPAN=5><?php echo $row['title']?></TD>
+	</TR>
+	<TR HEIGHT=100>
+		<TD CLASS=ReceiveTd ALIGN=center>拟办意见</TD>
+		<TD CLASS=ReceiveTd COLSPAN=5>
+		
+		<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 WIDTH=98% ALIGN=CENTER>
+					
+			<?php
+			if($type['appkey']==1){
+				global $db;
+				$query = $db->query("SELECT a.*,b.flownum,b.flowkey1,b.flowkey,b.flowkey2,b.flownote FROM ".DB_TABLEPRE."personnel a,".DB_TABLEPRE."app_flow b  WHERE a.appflow=b.fid and a.fileid = '".$_GET['fileid']."' and a.type=1 and a.pkey!=0  and b.flowmovement=1 order by a.id desc");
+				while ($rowper = $db->fetch_array($query)) {
+					if($rowper['appkey']==1){
+						app_view_per($rowper['id']);
+					}else{
+			?>
+					
+						<TR HEIGHT=25>
+							<TD><?php echo $rowper['lnstructions']?></TD>
+							<TD WIDTH=100><?php echo $rowper['name']?></TD>
+							<TD WIDTH=120><?php echo $rowper['approvaldate']?></TD>
+						</TR>
+			<?php
+				   }
+			   }
+		   }else{
+			   global $db;
+			   $query = $db->query("SELECT * FROM ".DB_TABLEPRE."personnel WHERE fileid = '".$_GET['fileid']."' and type=1 and pkey!=0  and node=1 order by id desc");
+			   while ($rowper = $db->fetch_array($query)) {
+				   if($rowper['appkey']==1){
+					   app_view_per($rowper['id']);
+				   }else{
+		   ?>
+		   <TR HEIGHT=25>
+				<TD><?php echo $rowper['lnstructions']?></TD>
+				<TD WIDTH=100><?php echo $rowper['name']?></TD>
+				<TD WIDTH=120><?php echo $rowper['approvaldate']?></TD>
+			</TR>
+		<?php 
+				}
+			}
+		}?>
+			  </TABLE>
+		
+		
+		</TD>
+	</TR>
+	<TR HEIGHT=300>
+		<TD CLASS=ReceiveTd ALIGN=center>领导批示</TD>
+		<TD CLASS=ReceiveTd VALIGN=TOP COLSPAN=5>
+		
+		<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 WIDTH=98% ALIGN=CENTER>
+					
+			<?php
+			if($type['appkey']==1){
+				global $db;
+				$query = $db->query("SELECT a.*,b.flownum,b.flowkey1,b.flowkey,b.flowkey2,b.flownote FROM ".DB_TABLEPRE."personnel a,".DB_TABLEPRE."app_flow b  WHERE a.appflow=b.fid and a.fileid = '".$_GET['fileid']."' and a.type=1 and a.pkey!=0  and b.flowmovement=2 order by a.id desc");
+				while ($rowper = $db->fetch_array($query)) {
+					if($rowper['appkey']==1){
+						app_view_per($rowper['id']);
+					}else{
+			?>
+					
+						<TR HEIGHT=25>
+							<TD><?php echo $rowper['lnstructions']?></TD>
+							<TD WIDTH=100><?php echo $rowper['name']?></TD>
+							<TD WIDTH=120><?php echo $rowper['approvaldate']?></TD>
+						</TR>
+			<?php
+				   }
+			   }
+		   }else{
+			   global $db;
+			   $query = $db->query("SELECT * FROM ".DB_TABLEPRE."personnel WHERE fileid = '".$_GET['fileid']."' and type=1 and pkey!=0  and node=2 order by id desc");
+			   while ($rowper = $db->fetch_array($query)) {
+				   if($rowper['appkey']==1){
+					   app_view_per($rowper['id']);
+				   }else{
+		   ?>
+		   <TR HEIGHT=25>
+				<TD><?php echo $rowper['lnstructions']?></TD>
+				<TD WIDTH=100><?php echo $rowper['name']?></TD>
+				<TD WIDTH=120><?php echo $rowper['approvaldate']?></TD>
+			</TR>
+		<?php 
+				}
+			}
+		}?>
+			  </TABLE>
+		
+			</TD>
+	</TR>
+	<TR HEIGHT=100>
+		<TD CLASS=ReceiveTd ALIGN=center>承办结果</TD>
+		<TD CLASS=ReceiveTd COLSPAN=5>
+		
+		<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 WIDTH=98% ALIGN=CENTER>
+					
+			<?php
+			if($type['appkey']==1){
+				global $db;
+				$query = $db->query("SELECT a.*,b.flownum,b.flowkey1,b.flowkey,b.flowkey2,b.flownote FROM ".DB_TABLEPRE."personnel a,".DB_TABLEPRE."app_flow b  WHERE a.appflow=b.fid and a.fileid = '".$_GET['fileid']."' and a.type=1 and a.pkey!=0  and b.flowmovement=4 order by a.id desc");
+				while ($rowper = $db->fetch_array($query)) {
+					if($rowper['appkey']==1){
+						app_view_per($rowper['id']);
+					}else{
+			?>
+					
+						<TR HEIGHT=25>
+							<TD><?php echo $rowper['lnstructions']?></TD>
+							<TD WIDTH=100><?php echo $rowper['name']?></TD>
+							<TD WIDTH=120><?php echo $rowper['approvaldate']?></TD>
+						</TR>
+			<?php
+				   }
+			   }
+		   }else{
+			   global $db;
+			   $query = $db->query("SELECT * FROM ".DB_TABLEPRE."personnel WHERE fileid = '".$_GET['fileid']."' and type=1 and pkey!=0  and node=4 order by id desc");
+			   while ($rowper = $db->fetch_array($query)) {
+				   if($rowper['appkey']==1){
+					   app_view_per($rowper['id']);
+				   }else{
+		   ?>
+		   <TR HEIGHT=25>
+				<TD><?php echo $rowper['lnstructions']?></TD>
+				<TD WIDTH=100><?php echo $rowper['name']?></TD>
+				<TD WIDTH=120><?php echo $rowper['approvaldate']?></TD>
+			</TR>
+		<?php 
+				}
+			}
+		}?>
+			  </TABLE>
+		
+			</TD>
+	</TR>
+</TABLE>
+	  
+<!--endprint1-->	  
+<?php if($_GET['print']==''){?>  
+	  
+	  
+	  
+	  
+	  
+	  
+	  </td>
+    </tr>
+	
+ 
+    
+  </table>
+  
+  
+<table class="TableBlock" border="0" width="90%" align="center" style="margin-top:20px;">
+	<tr>
+      <td nowrap class="TableHeader" colspan="2" id="m2"><b>&nbsp;附件设置</b></td>
+    </tr>  
+	<tr>
+      <td nowrap class="TableContent" width="15%">附件文档：</td>
+      <td class="TableData" id="filenumber">
+	  
+	  </td>
+    </tr>
+	
+  
+  <?php if($_CONFIG->config_data('configoffice')=='1'){?>
+  
+	 <tr>
+      <td nowrap class="TableHeader" colspan="2"><b>&nbsp;正文设置</b></td>
+    </tr>  
+	<tr>
+      <td nowrap class="TableContent" width="15%">文档：</td>
+      <td class="TableData" id="filenumberoffice">
+	 </td>
+    </tr>
+	<input type="hidden" name="fileofficeid" class="BigInput"  onpropertychange="fileoffice_show();" />
+	 <? }?>
+	</table>
+	
+	
+	<table class="TableBlock" border="0" width="90%" align="center" style="margin-top:20px;margin-bottom:20px;">
+	<tr>
+      <td nowrap class="TableHeader" colspan="2" id="m2"><b>&nbsp;阅读记录</b></td>
+    </tr>  
+	<?php
+	global $db;
+	$query = $db->query("SELECT * FROM ".DB_TABLEPRE."distribution WHERE fileid = '".$_GET['fileid']."' and dkey=1 order by disdate asc");
+	while ($rowd = $db->fetch_array($query)) {
+	?>
+	<tr>
+      <td width="15%" align="right" nowrap class="TableContent"><?php echo $rowd['name']?>：
+	  <?php
+	  if($rowd['viewdate']!=''){
+		  echo '<font color=red>[己读]</font>';
+	  }else{
+		  echo '[未读]';
+	  }
+	  ?>
+	  </td>
+      <td class="TableData">
+	  <?php
+	  if($rowd['viewdate']!=''){
+		  echo '阅读时间：'.$rowd['viewdate'];
+	  }
+	  if($rowd['evaluation']!=''){
+		  echo '<br>评语：'.$rowd['evaluation'];
+	  }
+	  ?>
+	  
+	  
+	  </td>
+    </tr>
+	<?php
+	}
+	?>
+	</table>
+<?php }?>
+</body>
+</html>

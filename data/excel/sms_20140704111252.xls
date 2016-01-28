@@ -1,0 +1,103 @@
+    <html xmlns:o="urn:schemas-microsoft-com:office:office"
+    xmlns:x="urn:schemas-microsoft-com:office:excel"
+    xmlns="http://www.w3.org/TR/html4/loose.dtd">
+    <head>
+    <meta http-equiv=Content-Type content="text/html; charset=utf-8">
+    <meta name=ProgId content=Excel.Sheet>
+    <!--[if gte mso 9]><xml>
+     <o:DocumentProperties>
+      <o:LastAuthor>Rising</o:LastAuthor>
+      <o:LastSaved>2005-01-02T07:46:23Z</o:LastSaved>
+      <o:Version>10.2625</o:Version>
+     </o:DocumentProperties>
+     <o:OfficeDocumentSettings>
+      <o:DownloadComponents/>
+     </o:OfficeDocumentSettings>
+    </xml><![endif]-->
+    <style>
+    <!--table
+     {mso-displayed-decimal-separator:"\.";
+     mso-displayed-thousand-separator:"\,";}
+    @page
+     {margin:1.0in .75in 1.0in .75in;
+     mso-header-margin:.5in;
+     mso-footer-margin:.5in;}
+    tr
+     {mso-height-source:auto;}
+    col
+     {mso-width-source:auto;}
+    br
+     {mso-data-placement:same-cell;}
+    .style0
+     {mso-number-format:General;
+     text-align:general;
+     vertical-align:bottom;
+     white-space:nowrap;
+     mso-rotate:0;
+     mso-background-source:auto;
+     mso-pattern:auto;
+     color:windowtext;
+     font-size:10.0pt;
+     font-weight:400;
+     font-style:normal;
+     text-decoration:none;
+     font-family:Arial;
+     mso-generic-font-family:auto;
+     mso-font-charset:0;
+     border:none;
+     mso-protection:locked visible;
+     mso-style-name:Normal;
+     mso-style-id:0;}
+    td
+     {mso-style-parent:style0;
+     padding-top:1px;
+     padding-right:1px;
+     padding-left:1px;
+     mso-ignore:padding;
+     color:windowtext;
+     font-size:10.0pt;
+     font-weight:400;
+     font-style:normal;
+     text-decoration:none;
+     font-family:Arial;
+     mso-generic-font-family:auto;
+     mso-font-charset:0;
+     mso-number-format:General;
+     text-align:general;
+     vertical-align:bottom;
+     border:none;
+     mso-background-source:auto;
+     mso-pattern:auto;
+     mso-protection:locked visible;
+     white-space:nowrap;
+     mso-rotate:0;}
+    .xl24
+     {mso-style-parent:style0;
+     white-space:normal;}
+    -->
+    </style>
+    <!--[if gte mso 9]><xml>
+     <x:ExcelWorkbook>
+      <x:ExcelWorksheets>
+       <x:ExcelWorksheet>
+     <x:Name>Sheet1</x:Name>
+     <x:WorksheetOptions>
+      <x:Selected/>
+      <x:ProtectContents>False</x:ProtectContents>
+      <x:ProtectObjects>False</x:ProtectObjects>
+      <x:ProtectScenarios>False</x:ProtectScenarios>
+     </x:WorksheetOptions>
+       </x:ExcelWorksheet>
+      </x:ExcelWorksheets>
+      
+      <x:WindowHeight>10005</x:WindowHeight>
+      <x:WindowWidth>10005</x:WindowWidth>
+      <x:WindowTopX>120</x:WindowTopX>
+      <x:WindowTopY>135</x:WindowTopY>
+      <x:ProtectStructure>False</x:ProtectStructure>
+      <x:ProtectWindows>False</x:ProtectWindows>
+     </x:ExcelWorkbook>
+    </xml><![endif]-->
+    </head>
+    <body link=blue vlink=purple>
+    <table x:str border=0 cellpadding=0 cellspacing=0 style='border-collapse: collapse;table-layout:fixed;'><tr><td class=xl24 width=64 x:num>接收人</td><td class=xl24 width=64 x:num>发送人</td><td class=xl24 width=64 x:num>发送时间</td><td class=xl24 width=64 x:num>内容</td></tr><tr><td class=xl24 width=64 x:num>廖蔚</td><td class=xl24 width=64 x:num>刘昱</td><td class=xl24 width=64 x:num>2014.07.04 11:12:30</td><td class=xl24 width=64 x:num>工作安排和完成情况<a href="data/uploadfile/229/20140704/20140704031200.xls" target="_blank">附件下载</a></td></tr><tr><td class=xl24 width=64 x:num>廖蔚</td><td class=xl24 width=64 x:num>刘昱</td><td class=xl24 width=64 x:num>2014.07.04 11:10:53</td><td class=xl24 width=64 x:num>原始汇总材料<a href="data/uploadfile/229/20140704/20140704031028.doc" target="_blank">附件下载</a></td></tr><tr><td class=xl24 width=64 x:num>廖蔚</td><td class=xl24 width=64 x:num>刘昱</td><td class=xl24 width=64 x:num>2014.07.04 11:08:15</td><td class=xl24 width=64 x:num>廖总，对不起，可能文件格式有问题，我再重新发一下</td></tr><tr><td class=xl24 width=64 x:num>廖蔚</td><td class=xl24 width=64 x:num>刘昱</td><td class=xl24 width=64 x:num>2014.07.04 11:06:12</td><td class=xl24 width=64 x:num>原始材料汇总<a href="data/uploadfile/229/20140704/20140704030559.docx" target="_blank">附件下载</a></td></tr><tr><td class=xl24 width=64 x:num>廖蔚</td><td class=xl24 width=64 x:num>刘昱</td><td class=xl24 width=64 x:num>2014.07.04 11:04:15</td><td class=xl24 width=64 x:num>《原始汇总材料》和《7月7日至11日工作安排及上周完成情况》<a href="data/uploadfile/229/20140704/20140704030220.docx" target="_blank">附件下载</a></td></tr><tr><td class=xl24 width=64 x:num>张谷,刘兵,邹积立,何智彬,向伟益,刘维嘉,张华林,杨晖,都勤,廖蔚,何大清,郭全喜,张海鹏,汪社林</td><td class=xl24 width=64 x:num>刘昱</td><td class=xl24 width=64 x:num>2014.07.04 09:44:15</td><td class=xl24 width=64 x:num>国际合作与社会扶贫处呈报《2014年6月事记7月工作要点》<a href="data/uploadfile/229/20140704/20140704014305.doc" target="_blank">附件下载</a></td></tr><tr><td class=xl24 width=64 x:num>王正洪</td><td class=xl24 width=64 x:num>刘昱</td><td class=xl24 width=64 x:num>2014.07.03 10:38:02</td><td class=xl24 width=64 x:num>王处，我又改了下，你看可以不<a href="data/uploadfile/229/20140703/20140703023738.doc" target="_blank">附件下载</a></td></tr><tr><td class=xl24 width=64 x:num>张谷,刘兵,邹积立,何智彬,向伟益,刘维嘉,张华林,杨晖,都勤,廖蔚,何大清,郭全喜,张海鹏,汪社林</td><td class=xl24 width=64 x:num>刘昱</td><td class=xl24 width=64 x:num>2014.07.02 16:44:29</td><td class=xl24 width=64 x:num>《四川藏区县级党政领导班子成员研修班情况总结》<a href="data/uploadfile/229/20140702/20140702084420.doc" target="_blank">附件下载</a></td></tr><tr><td class=xl24 width=64 x:num>王正洪</td><td class=xl24 width=64 x:num>刘昱</td><td class=xl24 width=64 x:num>2014.07.02 16:28:43</td><td class=xl24 width=64 x:num>6月事记<a href="data/uploadfile/229/20140702/20140702082840.doc" target="_blank">附件下载</a></td></tr><tr><td class=xl24 width=64 x:num>覃佳</td><td class=xl24 width=64 x:num>刘昱</td><td class=xl24 width=64 x:num>2014.07.02 16:23:23</td><td class=xl24 width=64 x:num>社扶处6月事记<a href="data/uploadfile/229/20140702/20140702082252.doc" target="_blank">附件下载</a></td></tr><tr><td class=xl24 width=64 x:num>李洁,王正洪</td><td class=xl24 width=64 x:num>刘昱</td><td class=xl24 width=64 x:num>2014.07.02 15:16:52</td><td class=xl24 width=64 x:num>您有一个公文需要审批，请进入公文待办进行审批!</td></tr>

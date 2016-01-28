@@ -1,0 +1,103 @@
+    <html xmlns:o="urn:schemas-microsoft-com:office:office"
+    xmlns:x="urn:schemas-microsoft-com:office:excel"
+    xmlns="http://www.w3.org/TR/html4/loose.dtd">
+    <head>
+    <meta http-equiv=Content-Type content="text/html; charset=utf-8">
+    <meta name=ProgId content=Excel.Sheet>
+    <!--[if gte mso 9]><xml>
+     <o:DocumentProperties>
+      <o:LastAuthor>Rising</o:LastAuthor>
+      <o:LastSaved>2005-01-02T07:46:23Z</o:LastSaved>
+      <o:Version>10.2625</o:Version>
+     </o:DocumentProperties>
+     <o:OfficeDocumentSettings>
+      <o:DownloadComponents/>
+     </o:OfficeDocumentSettings>
+    </xml><![endif]-->
+    <style>
+    <!--table
+     {mso-displayed-decimal-separator:"\.";
+     mso-displayed-thousand-separator:"\,";}
+    @page
+     {margin:1.0in .75in 1.0in .75in;
+     mso-header-margin:.5in;
+     mso-footer-margin:.5in;}
+    tr
+     {mso-height-source:auto;}
+    col
+     {mso-width-source:auto;}
+    br
+     {mso-data-placement:same-cell;}
+    .style0
+     {mso-number-format:General;
+     text-align:general;
+     vertical-align:bottom;
+     white-space:nowrap;
+     mso-rotate:0;
+     mso-background-source:auto;
+     mso-pattern:auto;
+     color:windowtext;
+     font-size:10.0pt;
+     font-weight:400;
+     font-style:normal;
+     text-decoration:none;
+     font-family:Arial;
+     mso-generic-font-family:auto;
+     mso-font-charset:0;
+     border:none;
+     mso-protection:locked visible;
+     mso-style-name:Normal;
+     mso-style-id:0;}
+    td
+     {mso-style-parent:style0;
+     padding-top:1px;
+     padding-right:1px;
+     padding-left:1px;
+     mso-ignore:padding;
+     color:windowtext;
+     font-size:10.0pt;
+     font-weight:400;
+     font-style:normal;
+     text-decoration:none;
+     font-family:Arial;
+     mso-generic-font-family:auto;
+     mso-font-charset:0;
+     mso-number-format:General;
+     text-align:general;
+     vertical-align:bottom;
+     border:none;
+     mso-background-source:auto;
+     mso-pattern:auto;
+     mso-protection:locked visible;
+     white-space:nowrap;
+     mso-rotate:0;}
+    .xl24
+     {mso-style-parent:style0;
+     white-space:normal;}
+    -->
+    </style>
+    <!--[if gte mso 9]><xml>
+     <x:ExcelWorkbook>
+      <x:ExcelWorksheets>
+       <x:ExcelWorksheet>
+     <x:Name>Sheet1</x:Name>
+     <x:WorksheetOptions>
+      <x:Selected/>
+      <x:ProtectContents>False</x:ProtectContents>
+      <x:ProtectObjects>False</x:ProtectObjects>
+      <x:ProtectScenarios>False</x:ProtectScenarios>
+     </x:WorksheetOptions>
+       </x:ExcelWorksheet>
+      </x:ExcelWorksheets>
+      
+      <x:WindowHeight>10005</x:WindowHeight>
+      <x:WindowWidth>10005</x:WindowWidth>
+      <x:WindowTopX>120</x:WindowTopX>
+      <x:WindowTopY>135</x:WindowTopY>
+      <x:ProtectStructure>False</x:ProtectStructure>
+      <x:ProtectWindows>False</x:ProtectWindows>
+     </x:ExcelWorkbook>
+    </xml><![endif]-->
+    </head>
+    <body link=blue vlink=purple>
+    <table x:str border=0 cellpadding=0 cellspacing=0 style='border-collapse: collapse;table-layout:fixed;'><tr><td class=xl24 width=64 x:num>状态</td><td class=xl24 width=64 x:num>发送人</td><td class=xl24 width=64 x:num>发送时间</td><td class=xl24 width=64 x:num>内容</td></tr><tr><td class=xl24 width=64 x:num>未读</td><td class=xl24 width=64 x:num>杨建红</td><td class=xl24 width=64 x:num>2014.06.13 14:29:46</td><td class=xl24 width=64 x:num>传来一个公文需要审批，请进入公文待办进行审批!<a href="http://171.221.174.3:5104/admin.php?ac=approval&fileurl=app&menuid=262&">查看</a></td></tr><tr><td class=xl24 width=64 x:num>未读</td><td class=xl24 width=64 x:num>朱蓉</td><td class=xl24 width=64 x:num>2014.06.10 18:09:25</td><td class=xl24 width=64 x:num>您接收到一条来自工作流的通知,请点击“<a href="admin.php?ac=list&do=view&fileurl=workclass&workid=1092">查看</a>”工作流!</td></tr><tr><td class=xl24 width=64 x:num>己读</td><td class=xl24 width=64 x:num>朱蓉</td><td class=xl24 width=64 x:num>2014.06.10 17:29:21</td><td class=xl24 width=64 x:num>您有一个工作流程需要审批,请点击进入工作流进行审批!</td></tr><tr><td class=xl24 width=64 x:num>己读</td><td class=xl24 width=64 x:num>朱蓉</td><td class=xl24 width=64 x:num>2014.06.10 17:22:01</td><td class=xl24 width=64 x:num>您有一个工作流程需要审批,请点击进入工作流进行审批!</td></tr><tr><td class=xl24 width=64 x:num>未读</td><td class=xl24 width=64 x:num>朱蓉</td><td class=xl24 width=64 x:num>2014.06.10 17:09:47</td><td class=xl24 width=64 x:num>您接收到一条来自工作流的通知,请点击“<a href="admin.php?ac=list&do=view&fileurl=workclass&workid=1089">查看</a>”工作流!</td></tr><tr><td class=xl24 width=64 x:num>己读</td><td class=xl24 width=64 x:num>王柯</td><td class=xl24 width=64 x:num>2014.01.22 13:01:45</td><td class=xl24 width=64 x:num>管理员,唐义,韩峰,周美川,冯登亮,杨文坚,王政洲,甘健,李洁,高明,贺云,罗丽娟,冷雪丽,吴朗,测试,李庆友,吴守清,张兵,罗薇,吴勇,杨萍,侯军,潘晔,魏方卓,李征宇,陈彦,黄宇,薛兵,罗厚国,沈巍,王晓华,王远来,朱蓉,卢强,刘明忠,杨建红,王丹,苟会琼,李灵英,黄河,包文,杨黎,王柯,刘燕,李立峰,牟敏,李华聪,王强,蒲应军,冯典林,刘登安,王晓梅,蒋蓉,王正洪,李抒玲,杨丽,覃佳,罗宇,汪明辉,彭静耘,蒋光文,刘伯庆,何成俊,刘莉,侯毅,曾文兵,张潇元,阳伟明,韦俊红,李剑波,姚立,兰素华,黄代利,曾磊,雷蕾,曾维忠,蒲熹漫,李宇,杨邦华,蔡广兵,韩敏,刘晓春,朱建凌,王思铁,向兴华,冯克努,王红虹,刘小林,代琦,张建国,郑持平,李欣,许鉴,康玲,罗庆,张凤英,江志伟,魏永志,青成,罗斯华,胥谊,王俊赛,王晓蓉,张晓东,敬松,李莉红,张蔚,姜琼,彭海,屈鹏,杨其林,王利,李廷亮,金洲,刘譓,王凤姣,王鹏,黄清彪,王红跃,杨建成,李  峰,林晓燕,耿福元,姚发俊,唐正州,刘  宇,李晓东,余丰君,潘  玲,周姗姗,马永杰,钱  锟,曹  亮,樊  涛,王  婷,李开远,李  萌,张庆敏,张德华,曾小琴,陈俊羽,刘喜艳,张  倩,孙祥博,蔡亚军,吴红艳,贾  寅,杨皓,刘蔚,张钦城,:您有一个文件需要阅读,名称为：test1;请进行查看!<a href="admin.php?ac=views&fileurl=knowledge&do=edit&id=5&type=6">点击查看>></a></td></tr>

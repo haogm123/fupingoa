@@ -1,0 +1,103 @@
+    <html xmlns:o="urn:schemas-microsoft-com:office:office"
+    xmlns:x="urn:schemas-microsoft-com:office:excel"
+    xmlns="http://www.w3.org/TR/html4/loose.dtd">
+    <head>
+    <meta http-equiv=Content-Type content="text/html; charset=utf-8">
+    <meta name=ProgId content=Excel.Sheet>
+    <!--[if gte mso 9]><xml>
+     <o:DocumentProperties>
+      <o:LastAuthor>Rising</o:LastAuthor>
+      <o:LastSaved>2005-01-02T07:46:23Z</o:LastSaved>
+      <o:Version>10.2625</o:Version>
+     </o:DocumentProperties>
+     <o:OfficeDocumentSettings>
+      <o:DownloadComponents/>
+     </o:OfficeDocumentSettings>
+    </xml><![endif]-->
+    <style>
+    <!--table
+     {mso-displayed-decimal-separator:"\.";
+     mso-displayed-thousand-separator:"\,";}
+    @page
+     {margin:1.0in .75in 1.0in .75in;
+     mso-header-margin:.5in;
+     mso-footer-margin:.5in;}
+    tr
+     {mso-height-source:auto;}
+    col
+     {mso-width-source:auto;}
+    br
+     {mso-data-placement:same-cell;}
+    .style0
+     {mso-number-format:General;
+     text-align:general;
+     vertical-align:bottom;
+     white-space:nowrap;
+     mso-rotate:0;
+     mso-background-source:auto;
+     mso-pattern:auto;
+     color:windowtext;
+     font-size:10.0pt;
+     font-weight:400;
+     font-style:normal;
+     text-decoration:none;
+     font-family:Arial;
+     mso-generic-font-family:auto;
+     mso-font-charset:0;
+     border:none;
+     mso-protection:locked visible;
+     mso-style-name:Normal;
+     mso-style-id:0;}
+    td
+     {mso-style-parent:style0;
+     padding-top:1px;
+     padding-right:1px;
+     padding-left:1px;
+     mso-ignore:padding;
+     color:windowtext;
+     font-size:10.0pt;
+     font-weight:400;
+     font-style:normal;
+     text-decoration:none;
+     font-family:Arial;
+     mso-generic-font-family:auto;
+     mso-font-charset:0;
+     mso-number-format:General;
+     text-align:general;
+     vertical-align:bottom;
+     border:none;
+     mso-background-source:auto;
+     mso-pattern:auto;
+     mso-protection:locked visible;
+     white-space:nowrap;
+     mso-rotate:0;}
+    .xl24
+     {mso-style-parent:style0;
+     white-space:normal;}
+    -->
+    </style>
+    <!--[if gte mso 9]><xml>
+     <x:ExcelWorkbook>
+      <x:ExcelWorksheets>
+       <x:ExcelWorksheet>
+     <x:Name>Sheet1</x:Name>
+     <x:WorksheetOptions>
+      <x:Selected/>
+      <x:ProtectContents>False</x:ProtectContents>
+      <x:ProtectObjects>False</x:ProtectObjects>
+      <x:ProtectScenarios>False</x:ProtectScenarios>
+     </x:WorksheetOptions>
+       </x:ExcelWorksheet>
+      </x:ExcelWorksheets>
+      
+      <x:WindowHeight>10005</x:WindowHeight>
+      <x:WindowWidth>10005</x:WindowWidth>
+      <x:WindowTopX>120</x:WindowTopX>
+      <x:WindowTopY>135</x:WindowTopY>
+      <x:ProtectStructure>False</x:ProtectStructure>
+      <x:ProtectWindows>False</x:ProtectWindows>
+     </x:ExcelWorkbook>
+    </xml><![endif]-->
+    </head>
+    <body link=blue vlink=purple>
+    <table x:str border=0 cellpadding=0 cellspacing=0 style='border-collapse: collapse;table-layout:fixed;'><tr><td class=xl24 width=64 x:num>标题</td><td class=xl24 width=64 x:num>发文字号</td><td class=xl24 width=64 x:num>密级</td><td class=xl24 width=64 x:num>主题词</td><td class=xl24 width=64 x:num>主办单位</td><td class=xl24 width=64 x:num>拟稿人</td><td class=xl24 width=64 x:num>校对</td><td class=xl24 width=64 x:num>缮印</td><td class=xl24 width=64 x:num>用印</td><td class=xl24 width=64 x:num>主送</td><td class=xl24 width=64 x:num>抄送</td><td class=xl24 width=64 x:num>发布时间</td></tr><tr><td class=xl24 width=64 x:num>关于《雅安市“4.20”芦山强烈地震灾后恢复重建委员会办公室关于请求支持飞仙关镇南、北场镇移民安置点配套基础设计概算变更的报告》相关情况的函</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>规划处</td><td class=xl24 width=64 x:num>王远来</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>雅安市人民政府</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>2014.10.08 00:00:00</td></tr><tr><td class=xl24 width=64 x:num>四川省扶贫和移民工作局关于“4.20”芦山地震贫困村灾后重建9月份工作推进情况报告</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>规划处</td><td class=xl24 width=64 x:num>王远来</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>省重建办</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>2014.09.29 00:00:00</td></tr><tr><td class=xl24 width=64 x:num>四川省扶贫和移民工作局关于《雅安市“4.20”芦山强烈地震灾后恢复重建委员会办公室关于请求支持飞仙关镇南、北场镇移民安置点配套基础设计概算变更的报告》相关情况的报告</td><td class=xl24 width=64 x:num>已登记</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>规划处</td><td class=xl24 width=64 x:num>王远来</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>吴朗</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>钟勉副省长</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>2014.09.24 00:00:00</td></tr><tr><td class=xl24 width=64 x:num>四川省扶贫和移民工作局关于《雅安市“4.20”芦山强烈地震灾后恢复重建委员会办公室关于请求支持飞仙关镇南、北场镇移民安置点配套基础设计概算变更的报告》相关情况的报告</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>规划处</td><td class=xl24 width=64 x:num>王远来</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>钟勉副省长</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>2014.09.23 00:00:00</td></tr><tr><td class=xl24 width=64 x:num>四川省扶贫和移民工作局关于凉山州会东县大弯腰树水电站建设征地实物指标调查细则及工作方案的批复</td><td class=xl24 width=64 x:num>川扶贫移民发〔2014〕257号</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>规划处</td><td class=xl24 width=64 x:num>王远来</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>吴朗</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>凉山州移民工作局</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>2014.09.22 00:00:00</td></tr><tr><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>规划处</td><td class=xl24 width=64 x:num>王远来</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>省政府</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>2014.09.18 00:00:00</td></tr><tr><td class=xl24 width=64 x:num>四川省扶贫和移民工作局关于省政府办公厅办文通知B〔2014〕1891-1号办理情况的报告</td><td class=xl24 width=64 x:num>川扶贫移民〔2014〕103号</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>规划处</td><td class=xl24 width=64 x:num>王远来</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>冷雪丽</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>省政府</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>2014.08.22 00:00:00</td></tr><tr><td class=xl24 width=64 x:num>四川省扶贫和移民工作局关于《四川省达州市石佛滩水电站建设征地移民安置实施规划报告》的批复</td><td class=xl24 width=64 x:num>川扶贫移民发〔2014〕211号</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>规划处</td><td class=xl24 width=64 x:num>王远来</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>吴朗</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>达州市扶贫和移民工作局</td><td class=xl24 width=64 x:num>达州市州人民政府、达州市湘粤水电发展有限责任公司</td><td class=xl24 width=64 x:num>2014.08.19 00:00:00</td></tr><tr><td class=xl24 width=64 x:num>四川省扶贫和移民工作局关于省政府办公厅办文通知B[2014]1975-1号办理情况的报告</td><td class=xl24 width=64 x:num>川扶贫移民〔2014〕100号</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>规划处</td><td class=xl24 width=64 x:num>王远来</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>吴朗</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>省政府</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>2014.08.06 00:00:00</td></tr><tr><td class=xl24 width=64 x:num>规划处2014年8月份主要工作</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>规划处</td><td class=xl24 width=64 x:num>王远来</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>局办公室</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>2014.07.16 00:00:00</td></tr><tr><td class=xl24 width=64 x:num>规划处2014年8月份主要工作</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>规划处</td><td class=xl24 width=64 x:num>王远来</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>2014.07.16 00:00:00</td></tr><tr><td class=xl24 width=64 x:num>四川省扶贫和移民工作局关于《四川省达州市石佛滩水电站建设征地移民安置实施规划报告》的批复</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>规划处</td><td class=xl24 width=64 x:num>王远来</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>达州市扶贫和移民工作局</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>2014.07.16 00:00:00</td></tr><tr><td class=xl24 width=64 x:num>规划处宣传重点（初稿）</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>规划处</td><td class=xl24 width=64 x:num>王远来</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>2014.07.15 00:00:00</td></tr><tr><td class=xl24 width=64 x:num>规划处宣传重点（初稿）</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>规划处</td><td class=xl24 width=64 x:num>王远来</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>2014.07.15 00:00:00</td></tr><tr><td class=xl24 width=64 x:num>四川省扶贫和移民工作局关于省政府办公厅办文通知B〔2014〕1810-1号办理情况的报告</td><td class=xl24 width=64 x:num>川扶贫移民〔2014〕86号</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>规划处</td><td class=xl24 width=64 x:num>王远来</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>省政府</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>2014.07.11 00:00:00</td></tr><tr><td class=xl24 width=64 x:num>四川省扶贫和移民工作局关于省政府办公厅办文通知B[2014]0755-1号办理情况的报告</td><td class=xl24 width=64 x:num>川扶贫移民〔2014〕85号</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>规划处</td><td class=xl24 width=64 x:num>王远来</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>省政府</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>2014.07.07 00:00:00</td></tr><tr><td class=xl24 width=64 x:num>6个突出信访问题化解进展情况统计表</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>规划处</td><td class=xl24 width=64 x:num>王远来</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>信访处</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>2014.06.30 00:00:00</td></tr><tr><td class=xl24 width=64 x:num>四川省扶贫和移民工作局关于甘孜州燕子沟河、磨子沟河蔡阳水电站建设征地实物指标调查细则及工作方案的批复</td><td class=xl24 width=64 x:num>川扶贫移民发〔2014〕145号</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>规划处</td><td class=xl24 width=64 x:num>王远来</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>甘孜州扶贫和移民工作局</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>2014.06.27 00:00:00</td></tr><tr><td class=xl24 width=64 x:num>四川省扶贫和移民工作局关于甘孜州燕子沟河、磨子沟河蔡阳水电站建设征地实物指标调查细则及工作方案的批复</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>规划处</td><td class=xl24 width=64 x:num>王远来</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>甘孜州扶贫和移民工作局</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>2014.06.23 00:00:00</td></tr>

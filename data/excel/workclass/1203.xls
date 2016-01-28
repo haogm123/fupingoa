@@ -1,0 +1,664 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 11">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:LastPrinted>2013-04-18T10:17:21Z</o:LastPrinted>
+  <o:Created>1996-12-17T01:32:42Z</o:Created>
+  <o:LastSaved>2013-04-18T10:17:30Z</o:LastSaved>
+  <o:Version>11.9999</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:RemovePersonalInformation/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:1.0in .75in 1.0in .75in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;}
+tr
+	{mso-height-source:auto;
+	mso-ruby-visibility:none;}
+col
+	{mso-width-source:auto;
+	mso-ruby-visibility:none;}
+br
+	{mso-data-placement:same-cell;}
+.style0
+	{mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	color:windowtext;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:常规;
+	mso-style-id:0;}
+td
+	{mso-style-parent:style0;
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl24
+	{mso-style-parent:style0;
+	text-align:right;
+	vertical-align:middle;
+	white-space:normal;}
+.xl25
+	{mso-style-parent:style0;
+	text-align:left;
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	white-space:normal;}
+.xl26
+	{mso-style-parent:style0;
+	text-align:center;
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	background:#FFFF99;
+	mso-pattern:auto none;}
+.xl27
+	{mso-style-parent:style0;
+	text-align:center;
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	background:#FFFF99;
+	mso-pattern:auto none;
+	white-space:normal;}
+.xl28
+	{mso-style-parent:style0;
+	text-align:left;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	background:silver;
+	mso-pattern:auto none;}
+.xl29
+	{mso-style-parent:style0;
+	text-align:left;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:silver;
+	mso-pattern:auto none;}
+.xl30
+	{mso-style-parent:style0;
+	text-align:left;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:silver;
+	mso-pattern:auto none;}
+.xl31
+	{mso-style-parent:style0;
+	text-align:right;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	white-space:normal;}
+.xl32
+	{mso-style-parent:style0;
+	text-align:right;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl33
+	{mso-style-parent:style0;
+	text-align:left;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	white-space:normal;}
+.xl34
+	{mso-style-parent:style0;
+	font-size:20.0pt;
+	text-align:center;
+	vertical-align:middle;
+	white-space:normal;}
+.xl35
+	{mso-style-parent:style0;
+	text-align:left;
+	vertical-align:middle;
+	white-space:normal;}
+.xl36
+	{mso-style-parent:style0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;}
+.xl37
+	{mso-style-parent:style0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;}
+ruby
+	{ruby-align:left;}
+rt
+	{color:windowtext;
+	font-size:9.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-char-type:none;
+	display:none;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <x:ExcelWorkbook>
+  <x:ExcelWorksheets>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet1</x:Name>
+    <x:WorksheetOptions>
+     <x:DefaultRowHeight>285</x:DefaultRowHeight>
+     <x:Print>
+      <x:ValidPrinterInfo/>
+      <x:PaperSizeIndex>9</x:PaperSizeIndex>
+      <x:HorizontalResolution>180</x:HorizontalResolution>
+      <x:VerticalResolution>180</x:VerticalResolution>
+     </x:Print>
+     <x:CodeName>Sheet1</x:CodeName>
+     <x:Selected/>
+     <x:Panes>
+      <x:Pane>
+       <x:Number>3</x:Number>
+       <x:ActiveRow>5</x:ActiveRow>
+       <x:ActiveCol>5</x:ActiveCol>
+      </x:Pane>
+     </x:Panes>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet2</x:Name>
+    <x:WorksheetOptions>
+     <x:DefaultRowHeight>285</x:DefaultRowHeight>
+     <x:CodeName>Sheet2</x:CodeName>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet3</x:Name>
+    <x:WorksheetOptions>
+     <x:DefaultRowHeight>285</x:DefaultRowHeight>
+     <x:CodeName>Sheet3</x:CodeName>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+  </x:ExcelWorksheets>
+  <x:WindowHeight>4530</x:WindowHeight>
+  <x:WindowWidth>8505</x:WindowWidth>
+  <x:WindowTopX>480</x:WindowTopX>
+  <x:WindowTopY>120</x:WindowTopY>
+  <x:AcceptLabelsInFormulas/>
+  <x:ProtectStructure>False</x:ProtectStructure>
+  <x:ProtectWindows>False</x:ProtectWindows>
+ </x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+
+<body link=blue vlink=purple><table x:str border=0 cellpadding=0 cellspacing=0 width=612 style='border-collapse:
+ collapse;table-layout:fixed;width:459pt'>
+ <col width=54 style='mso-width-source:userset;mso-width-alt:1728;width:41pt'>
+ <col width=135 style='mso-width-source:userset;mso-width-alt:4320;width:101pt'>
+ <col width=423 style='mso-width-source:userset;mso-width-alt:13536;width:317pt'>
+ <tr height=80 style='mso-height-source:userset;height:60.0pt'>
+  <td colspan=3 height=80 class=xl34 width=612 style='height:60.0pt;width:459pt'>流水号20140630154022 分发文件</td>
+ </tr>
+ <tr height=33 style='mso-height-source:userset;height:24.95pt'>
+  <td colspan=2 height=33 class=xl35 width=189 style='height:24.95pt;
+  width:142pt'>流水单号:20140630154022</td>
+  <td class=xl24 width=423 style='width:317pt'>发起时间:2014-06-30 15:41:17</td>
+ </tr>
+ <tr height=33 style='mso-height-source:userset;height:24.95pt'>
+  <td colspan=3 height=33 class=xl28 style='border-right:.5pt solid black;
+  height:24.95pt'><span style='mso-spacerun:yes'>&nbsp;</span>表单数据内容</td>
+ </tr><tr height=53 style='mso-height-source:userset;height:39.95pt'>
+	  <td colspan=2 height=53 class=xl36 style='border-right:.5pt solid black;
+	  height:39.95pt'><span style='mso-spacerun:yes'>&nbsp;</span>文件分发</td>
+	  <td class=xl25 width=423 style='border-top:none;border-left:none;width:317pt'><span
+	  style='mso-spacerun:yes'>&nbsp;</span><table class="small" border="0" cellspacing="0" cellpadding="3" width="90%" align="center">
+<tbody>
+<tr>
+<td class="Big"><img align="absMiddle" src="http://171.221.174.3:5104/template/default/content/images/notify_new.gif" /><span class="big3"> 关于印发《四川省县域经济发展考核办法(试行)》的通知</span> <span style="float:right;font-size:12px;margin-right:20px;"><a style="font-size:12px;" href="http://171.221.174.3:5104/admin.php?ac=attachment&amp;fileurl=app&amp;type=1">&lt;&lt; 返回审批列表</a> | <a onclick="window.open('admin.php?ac=attachment&amp;fileurl=app&amp;do=appflow&amp;fileid=424&amp;apptype=18&amp;test=560825140630153942', 'newwindow', 'height=550, width=500, top=6, right=0, toolbar=no, menubar=no, scrollbars=yes, resizable=no,location=no, status=no')" href="http://171.221.174.3:5104/admin.php?ac=attachment&amp;do=personnel&amp;fileurl=app&amp;type=1&amp;fileid=424&amp;apptype=18#"><span style="color:red;">查看审批记录</span></a></span></td>
+</tr>
+</tbody>
+</table>
+<form method="post" name="save" action="admin.php?ac=attachment&amp;do=personnel&amp;fileurl=app&amp;apptype=18"> <table style="margin-top:10px;" class="TableBlock" border="0" width="90%" align="center">
+<tbody>
+<tr>
+<td class="TableHeader" colspan="2" noWrap><b>来文内容处理</b></td>
+</tr>
+<tr>
+<td style="padding-bottom:10px;padding-left:30px;padding-right:30px;background:#ffffff;padding-top:10px;" colspan="2">
+<style>
+.tdtop{
+ 	font-size: 20pt;
+ 	color: #FC3C03;
+ 	font-family: 宋体;
+ 	font-weight: bold;
+}
+
+.titleFont{
+ 	font-size: 11pt;
+	color: #FC3C03;
+	font-family: 楷体_GB2312;
+}
+
+.inputDocStyle {
+	BORDER-TOP: #8B8B8B 0px solid; 
+	BORDER-BOTTOM: #8B8B8B 0px solid; 
+	BORDER-LEFT: #8B8B8B 0px solid; 
+	BORDER-RIGHT: #8B8B8B 0px solid; 
+ 	font-size: 14pt;
+	width: 100%;
+	HEIGHT: 25px; 
+	BACKGROUND-COLOR: #F8E5E4;
+}
+
+.inputTextDocStyle {
+	BORDER-TOP: #8B8B8B 0px solid; 
+	BORDER-BOTTOM: #8B8B8B 0px solid; 
+	BORDER-LEFT: #8B8B8B 0px solid; 
+	BORDER-RIGHT: #8B8B8B 0px solid; 
+ 	font-size: 14pt;
+	width: 100%;
+	HEIGHT: 100%; 
+	BACKGROUND-COLOR: #F8E5E4;
+}
+
+.Selectdocstyle {
+	width: 100%;
+	HEIGHT: 100%; 
+	BORDER-TOP: #7F9DB9 0px solid; 
+	BORDER-BOTTOM: #7F9DB9 0px solid; 
+	BORDER-LEFT: #7F9DB9 0px solid; 
+	BORDER-RIGHT: #7F9DB9 0px solid; 
+	BACKGROUND-COLOR: #F8E5E4;
+}
+
+.sendTableStyle{
+  	border-top:solid 2px #FC3C03; 
+  	border-left:solid 2px #FC3C03; 
+  	border-right:solid 1px #FC3C03; 
+  	border-bottom:solid 2px #FC3C03; 
+}
+
+.sendTd{
+  	border-bottom:solid 1px #FC3C03; 
+  	border-right:solid 1px #FC3C03; 
+ 	PADDING-TOP: 6px; 
+	PADDING-LEFT: 6px; 
+ 	font-size: 11pt;
+	color: #FC3C03;
+	font-family: 楷体_GB2312;
+}
+
+.sendTdBottom{
+  	border-right:solid 1px #FC3C03; 
+ 	PADDING-TOP: 6px; 
+	PADDING-LEFT: 6px; 
+ 	font-size: 11pt;
+	color: #FC3C03;
+	font-family: 楷体_GB2312;
+}
+
+.ReceiveTableStyle {
+  	border-top:solid 2px #000000; 
+  	border-left:solid 2px #000000; 
+  	border-right:solid 1px #000000; 
+  	border-bottom:solid 1px #000000; 
+}
+
+.ReceiveTd{
+  	border-bottom:solid 1px #000000; 
+  	border-right:solid 1px #000000; 
+ 	font-size: 11pt;
+	color: #000000;
+	font-family: 楷体_GB2312;
+}
+
+
+
+
+
+.head {
+	font-size: 18pt; 
+	font-family:楷体_GB2312; 
+	color:red; 
+	padding:5px
+}
+
+.littlehead {
+	font-size: 11pt; 
+	font-family:楷体_GB2312; 
+	color:red;
+}
+
+.top {
+	font-size: 11pt; 
+	font-family:楷体_GB2312; 
+	color:red; 
+	border-top: 1 solid red;
+}
+
+.bottom {
+	font-size: 11pt; 
+	font-family:楷体_GB2312; 
+	color:red; 
+}
+
+.lefttop {
+	font-size: 11pt; 
+	font-family:楷体_GB2312; 
+	color:red; 
+	border-left: 1 solid red; 
+	border-top: 1 solid red;
+}
+
+.lefttopnored {
+	font-size: 11pt; 
+	font-family:楷体_GB2312; 
+	border-left: 1 solid red; 
+	border-top: 1 solid red;
+}
+
+.topbottom {
+	font-size: 11pt; 
+	font-family:楷体_GB2312;
+	border-top: 1 double red;  
+	border-bottom: 1 double red; 
+	color:red; 
+	padding:5px
+}
+
+.lefttopbottom {
+	font-size: 11pt; 
+	font-family:楷体_GB2312; 
+	color:red; 
+	border-left: 1 solid red; 
+	border-top: 1 solid red;
+	border-bottom: 1 solid red;
+}
+
+
+</style>
+<table id="docTable" class="ReceiveTableStyle" border="0" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr height="30" align="center">
+<td class="ReceiveTd" width="80">来文编号</td>
+<td class="ReceiveTd" width="200">20140625181001</td>
+<td class="ReceiveTd" width="60">份数</td>
+<td class="ReceiveTd" width="100"></td>
+<td class="ReceiveTd" width="60">附件</td>
+<td class="ReceiveTd" width="100"></td>
+</tr>
+<tr height="30" align="center">
+<td class="ReceiveTd">来文机关</td>
+<td class="ReceiveTd">中共四川省委办公厅　四川省人民政府办公厅</td>
+<td class="ReceiveTd">来文字号</td>
+<td class="ReceiveTd" colspan="3">川委办〔2014〕23号</td>
+</tr>
+<tr height="30" align="center">
+<td class="ReceiveTd">来文标题</td>
+<td class="ReceiveTd" colspan="5">关于印发《四川省县域经济发展考核办法(试行)》的通知</td>
+</tr>
+<tr height="100">
+<td class="ReceiveTd" align="center">拟办意见</td>
+<td class="ReceiveTd" colspan="5">
+<table border="0" cellspacing="0" cellpadding="2" width="98%" align="center">
+<tbody>
+<tr height="25">
+<td></td>
+<td width="100">李洁</td>
+<td width="120">2014-06-30 10:24:25</td>
+</tr>
+<tr height="25">
+<td></td>
+<td width="100">李洁</td>
+<td width="120">2014-06-27 15:55:12</td>
+</tr>
+<tr height="25">
+<td></td>
+<td width="100">李洁</td>
+<td width="120">2014-06-26 08:47:27</td>
+</tr>
+<tr height="25">
+<td>呈张局长阅示。</td>
+<td width="100">韩峰</td>
+<td width="120">2014-06-25 18:30:05</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr height="300">
+<td class="ReceiveTd" align="center">领导批示</td>
+<td class="ReceiveTd" valign="top" colspan="5">
+<table border="0" cellspacing="0" cellpadding="2" width="98%" align="center">
+<tbody>
+<tr height="25">
+<td>请指导处阅。涉及我们的指标，信统处和指导处要安排专人负责。</td>
+<td width="100">刘维嘉</td>
+<td width="120">2014-06-27 18:07:15</td>
+</tr>
+<tr height="25">
+<td>照办，并请信息统计处学习。</td>
+<td width="100">都勤</td>
+<td width="120">2014-06-27 15:59:04</td>
+</tr>
+<tr height="25">
+<td>此项工作请维嘉、都勤同志主抓。</td>
+<td width="100">张谷</td>
+<td width="120">2014-06-27 14:13:03</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr height="100">
+<td class="ReceiveTd" align="center">承办结果</td>
+<td class="ReceiveTd" colspan="5">
+<table border="0" cellspacing="0" cellpadding="2" width="98%" align="center"></table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+四川省县域经济发展考核办法</form></td>
+	 </tr><tr height=33 style='mso-height-source:userset;height:24.95pt'>
+  <td colspan=3 height=33 class=xl28 style='border-right:.5pt solid black;
+  height:24.95pt'>流程办理进度</td>
+ </tr><tr height=33 style='mso-height-source:userset;height:24.95pt'>
+	  <td height=33 class=xl26 style='height:24.95pt;border-top:none'>第1步</td>
+	  <td class=xl27 width=135 style='border-top:none;border-left:none;width:101pt'>申请人提交申请</td>
+	  <td class=xl25 width=423 style='border-top:none;border-left:none;width:317pt'>审批人员：刘蔚</td>
+	 </tr><tr height=80 style='mso-height-source:userset;height:60.0pt'>
+	  <td colspan=2 height=80 class=xl31 width=189 style='border-right:.5pt solid black;
+	  height:60.0pt;width:142pt'>刘蔚</td>
+	  <td class=xl25 width=423 style='border-top:none;border-left:none;width:317pt'>
+	  <b>日期：</b>2014-06-30 15:41:17<br>
+		  <b>状态：</b><br>
+		  <b>批示：</b>生成流程申请单，系统自动完成该步骤<br>
+		</td>
+	 </tr><tr height=33 style='mso-height-source:userset;height:24.95pt'>
+	  <td height=33 class=xl26 style='height:24.95pt;border-top:none'>第2步</td>
+	  <td class=xl27 width=135 style='border-top:none;border-left:none;width:101pt'>接受阅览</td>
+	  <td class=xl25 width=423 style='border-top:none;border-left:none;width:317pt'>审批人员：李智,王蓉,范思明,师进云,李华聪,王强,蒲应军,冯典林,刘登安</td>
+	 </tr><tr height=80 style='mso-height-source:userset;height:60.0pt'>
+			  <td colspan=2 height=80 class=xl31 width=189 style='border-right:.5pt solid black;
+			  height:60.0pt;width:142pt'>李智</td>
+			  <td class=xl25 width=423 style='border-top:none;border-left:none;width:317pt'>
+			  <b>日期：</b><br>
+				  <b>状态：</b><br>
+				  <b>批示：</b><br>
+				</td>
+			 </tr><tr height=80 style='mso-height-source:userset;height:60.0pt'>
+			  <td colspan=2 height=80 class=xl31 width=189 style='border-right:.5pt solid black;
+			  height:60.0pt;width:142pt'>王蓉</td>
+			  <td class=xl25 width=423 style='border-top:none;border-left:none;width:317pt'>
+			  <b>日期：</b><br>
+				  <b>状态：</b><br>
+				  <b>批示：</b><br>
+				</td>
+			 </tr><tr height=80 style='mso-height-source:userset;height:60.0pt'>
+			  <td colspan=2 height=80 class=xl31 width=189 style='border-right:.5pt solid black;
+			  height:60.0pt;width:142pt'>范思明</td>
+			  <td class=xl25 width=423 style='border-top:none;border-left:none;width:317pt'>
+			  <b>日期：</b><br>
+				  <b>状态：</b><br>
+				  <b>批示：</b><br>
+				</td>
+			 </tr><tr height=80 style='mso-height-source:userset;height:60.0pt'>
+			  <td colspan=2 height=80 class=xl31 width=189 style='border-right:.5pt solid black;
+			  height:60.0pt;width:142pt'>师进云</td>
+			  <td class=xl25 width=423 style='border-top:none;border-left:none;width:317pt'>
+			  <b>日期：</b><br>
+				  <b>状态：</b><br>
+				  <b>批示：</b><br>
+				</td>
+			 </tr><tr height=80 style='mso-height-source:userset;height:60.0pt'>
+			  <td colspan=2 height=80 class=xl31 width=189 style='border-right:.5pt solid black;
+			  height:60.0pt;width:142pt'>李华聪</td>
+			  <td class=xl25 width=423 style='border-top:none;border-left:none;width:317pt'>
+			  <b>日期：</b>2014-07-07 17:00:14<br>
+				  <b>状态：</b><br>
+				  <b>批示：</b>已阅。<br>
+				</td>
+			 </tr><tr height=80 style='mso-height-source:userset;height:60.0pt'>
+			  <td colspan=2 height=80 class=xl31 width=189 style='border-right:.5pt solid black;
+			  height:60.0pt;width:142pt'>王强</td>
+			  <td class=xl25 width=423 style='border-top:none;border-left:none;width:317pt'>
+			  <b>日期：</b><br>
+				  <b>状态：</b><br>
+				  <b>批示：</b><br>
+				</td>
+			 </tr><tr height=80 style='mso-height-source:userset;height:60.0pt'>
+			  <td colspan=2 height=80 class=xl31 width=189 style='border-right:.5pt solid black;
+			  height:60.0pt;width:142pt'>蒲应军</td>
+			  <td class=xl25 width=423 style='border-top:none;border-left:none;width:317pt'>
+			  <b>日期：</b><br>
+				  <b>状态：</b><br>
+				  <b>批示：</b><br>
+				</td>
+			 </tr><tr height=80 style='mso-height-source:userset;height:60.0pt'>
+			  <td colspan=2 height=80 class=xl31 width=189 style='border-right:.5pt solid black;
+			  height:60.0pt;width:142pt'>冯典林</td>
+			  <td class=xl25 width=423 style='border-top:none;border-left:none;width:317pt'>
+			  <b>日期：</b><br>
+				  <b>状态：</b><br>
+				  <b>批示：</b><br>
+				</td>
+			 </tr><tr height=80 style='mso-height-source:userset;height:60.0pt'>
+			  <td colspan=2 height=80 class=xl31 width=189 style='border-right:.5pt solid black;
+			  height:60.0pt;width:142pt'>刘登安</td>
+			  <td class=xl25 width=423 style='border-top:none;border-left:none;width:317pt'>
+			  <b>日期：</b><br>
+				  <b>状态：</b><br>
+				  <b>批示：</b><br>
+				</td>
+			 </tr><tr height=80 style='mso-height-source:userset;height:60.0pt'>
+			  <td colspan=2 height=80 class=xl31 width=189 style='border-right:.5pt solid black;
+			  height:60.0pt;width:142pt'>王晓梅</td>
+			  <td class=xl25 width=423 style='border-top:none;border-left:none;width:317pt'>
+			  <b>日期：</b><br>
+				  <b>状态：</b><br>
+				  <b>批示：</b><br>
+				</td>
+			 </tr><tr height=80 style='mso-height-source:userset;height:60.0pt'>
+			  <td colspan=2 height=80 class=xl31 width=189 style='border-right:.5pt solid black;
+			  height:60.0pt;width:142pt'>蒋蓉</td>
+			  <td class=xl25 width=423 style='border-top:none;border-left:none;width:317pt'>
+			  <b>日期：</b><br>
+				  <b>状态：</b><br>
+				  <b>批示：</b><br>
+				</td>
+			 </tr><tr height=80 style='mso-height-source:userset;height:60.0pt'>
+			  <td colspan=2 height=80 class=xl31 width=189 style='border-right:.5pt solid black;
+			  height:60.0pt;width:142pt'>袁刚</td>
+			  <td class=xl25 width=423 style='border-top:none;border-left:none;width:317pt'>
+			  <b>日期：</b><br>
+				  <b>状态：</b><br>
+				  <b>批示：</b><br>
+				</td>
+			 </tr><tr height=33 style='mso-height-source:userset;height:24.95pt'>
+  <td colspan=3 height=33 class=xl33 width=612 style='height:24.95pt;
+  width:459pt'>制表人:刘蔚</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=54 style='width:41pt'></td>
+  <td width=135 style='width:101pt'></td>
+  <td width=423 style='width:317pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+</html>

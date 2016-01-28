@@ -1,0 +1,103 @@
+    <html xmlns:o="urn:schemas-microsoft-com:office:office"
+    xmlns:x="urn:schemas-microsoft-com:office:excel"
+    xmlns="http://www.w3.org/TR/html4/loose.dtd">
+    <head>
+    <meta http-equiv=Content-Type content="text/html; charset=utf-8">
+    <meta name=ProgId content=Excel.Sheet>
+    <!--[if gte mso 9]><xml>
+     <o:DocumentProperties>
+      <o:LastAuthor>Rising</o:LastAuthor>
+      <o:LastSaved>2005-01-02T07:46:23Z</o:LastSaved>
+      <o:Version>10.2625</o:Version>
+     </o:DocumentProperties>
+     <o:OfficeDocumentSettings>
+      <o:DownloadComponents/>
+     </o:OfficeDocumentSettings>
+    </xml><![endif]-->
+    <style>
+    <!--table
+     {mso-displayed-decimal-separator:"\.";
+     mso-displayed-thousand-separator:"\,";}
+    @page
+     {margin:1.0in .75in 1.0in .75in;
+     mso-header-margin:.5in;
+     mso-footer-margin:.5in;}
+    tr
+     {mso-height-source:auto;}
+    col
+     {mso-width-source:auto;}
+    br
+     {mso-data-placement:same-cell;}
+    .style0
+     {mso-number-format:General;
+     text-align:general;
+     vertical-align:bottom;
+     white-space:nowrap;
+     mso-rotate:0;
+     mso-background-source:auto;
+     mso-pattern:auto;
+     color:windowtext;
+     font-size:10.0pt;
+     font-weight:400;
+     font-style:normal;
+     text-decoration:none;
+     font-family:Arial;
+     mso-generic-font-family:auto;
+     mso-font-charset:0;
+     border:none;
+     mso-protection:locked visible;
+     mso-style-name:Normal;
+     mso-style-id:0;}
+    td
+     {mso-style-parent:style0;
+     padding-top:1px;
+     padding-right:1px;
+     padding-left:1px;
+     mso-ignore:padding;
+     color:windowtext;
+     font-size:10.0pt;
+     font-weight:400;
+     font-style:normal;
+     text-decoration:none;
+     font-family:Arial;
+     mso-generic-font-family:auto;
+     mso-font-charset:0;
+     mso-number-format:General;
+     text-align:general;
+     vertical-align:bottom;
+     border:none;
+     mso-background-source:auto;
+     mso-pattern:auto;
+     mso-protection:locked visible;
+     white-space:nowrap;
+     mso-rotate:0;}
+    .xl24
+     {mso-style-parent:style0;
+     white-space:normal;}
+    -->
+    </style>
+    <!--[if gte mso 9]><xml>
+     <x:ExcelWorkbook>
+      <x:ExcelWorksheets>
+       <x:ExcelWorksheet>
+     <x:Name>Sheet1</x:Name>
+     <x:WorksheetOptions>
+      <x:Selected/>
+      <x:ProtectContents>False</x:ProtectContents>
+      <x:ProtectObjects>False</x:ProtectObjects>
+      <x:ProtectScenarios>False</x:ProtectScenarios>
+     </x:WorksheetOptions>
+       </x:ExcelWorksheet>
+      </x:ExcelWorksheets>
+      
+      <x:WindowHeight>10005</x:WindowHeight>
+      <x:WindowWidth>10005</x:WindowWidth>
+      <x:WindowTopX>120</x:WindowTopX>
+      <x:WindowTopY>135</x:WindowTopY>
+      <x:ProtectStructure>False</x:ProtectStructure>
+      <x:ProtectWindows>False</x:ProtectWindows>
+     </x:ExcelWorkbook>
+    </xml><![endif]-->
+    </head>
+    <body link=blue vlink=purple>
+    <table x:str border=0 cellpadding=0 cellspacing=0 style='border-collapse: collapse;table-layout:fixed;'><tr><td class=xl24 width=64 x:num>来文编号</td><td class=xl24 width=64 x:num>份数</td><td class=xl24 width=64 x:num>来文机关</td><td class=xl24 width=64 x:num>来文字号</td><td class=xl24 width=64 x:num>来文标题</td><td class=xl24 width=64 x:num>承办结果</td><td class=xl24 width=64 x:num>签收人</td><td class=xl24 width=64 x:num>收文日期</td></tr><tr><td class=xl24 width=64 x:num>20140811093154</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>省委办公厅</td><td class=xl24 width=64 x:num>川委发〔2014〕13号</td><td class=xl24 width=64 x:num>中共四川省委关于建立健全作风建设长效机制的意见</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>刘晓春</td><td class=xl24 width=64 x:num>2014.08.11</td></tr><tr><td class=xl24 width=64 x:num>20140806092808</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>省纪委</td><td class=xl24 width=64 x:num>无文号</td><td class=xl24 width=64 x:num>关于征求《关于省直部门内设机构和直属单位主要负责人向省纪委派驻机构述责述廉暂行办法（征求意见稿）》意见的函  （8月17日前反馈）</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>刘晓春</td><td class=xl24 width=64 x:num>2014.08.06</td></tr><tr><td class=xl24 width=64 x:num>20140807105211</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>省委党的群众路线教育实践活动领导小组办公室</td><td class=xl24 width=64 x:num>川委群办发〔2014〕33号</td><td class=xl24 width=64 x:num>关于上报“四风”突出问题专项整治工作进展情况的通知（请同时转省委各督导组（特急 8.15日前报送材料）</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>刘晓春</td><td class=xl24 width=64 x:num>2014.08.07</td></tr><tr><td class=xl24 width=64 x:num>20140807170518</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>省纪委</td><td class=xl24 width=64 x:num>第12期、第13期</td><td class=xl24 width=64 x:num>四川纪检监察信息“两深”工作专刊</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>刘晓春</td><td class=xl24 width=64 x:num>2014.08.07</td></tr><tr><td class=xl24 width=64 x:num>20140801220851</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>省纪委</td><td class=xl24 width=64 x:num>无</td><td class=xl24 width=64 x:num>四川纪检监察信息“两深”工作专刊.第8期和第9期</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>刘晓春</td><td class=xl24 width=64 x:num>2014.08.01</td></tr>

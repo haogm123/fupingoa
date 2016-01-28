@@ -1,0 +1,676 @@
+<?php
+ /*	OM by Minner.cn	为四川省扶贫移民局订制开发.2014-12-9 */
+
+
+if($_GET[om_ac]==''){
+//否则显示HTML
+//如果设置功能为启用状态则显示HTML
+?><!--OM_四川扶移局 by Minner.cn  李慧明-->
+<style>
+#OM_scfyj{font-size:12px;line-height:1.5em;color:#849BCA;background:#EDF1F8;border:2px solid #849BCA;margin-top:2px;margin-left:2px;overflow:hidden;position:absolute;}
+.content{padding:0px;border:#00ffff 2 solid;text-align:center;height:99%;top:20px;float:left;}
+#OM_tit{width:100%;height:30px;line-height:30px;background:#1965a0;color:white;cursor:move;text-align:center;padding-left:0px;font-weight:bold;}
+.tit1{width:100px;border-right:#99f 1 solid}
+.tit2{width:524px;border-right:#99f 1 solid}
+.tit3{width:130px}
+#OM_tit,.tit1,.tit2,.tit3{float:left;text-align:center}
+.tit1,.tit2,.tit3{height:100%}
+#OM_scfyj button{padding:0px;margin:0px;font-size:10px;height:20px;width:auto;overflow:hidden;}
+#OM_receiver{width:350px;height:25px;}
+#OM_Send_Msg{width:523px;position:absolute;left:101px;top:25px;height:135px;}
+#OM_Tip{position:absolute;width:400px;left:180px;top:150px;height:100px;border:solid 2 #FF6699;background:#e0e0e0;display:none;}
+#OM_Tip_ButS{position:absolute;left:0;top:65px;width:400px;height:20px;}
+#OM_Tip_Msg{position:absolute;top:5px;left:10px;width:380px;height:50px;text-align:left;}
+.OM_num{color:#blue;}
+
+#OM_M_DIV div{position:absolute;left:100px;top:30px;width:525px;height:270px;background:#EDF1F8;border-left:solid 1 #00cc00;border-right:solid 1 #00cc00;overflow-y:scroll;overflow-x:hidden;}
+#OM_current_session_div{position:absolute;text-align:center;left:100px;top:35px;height:260px;width:524px;line-height:270px;font-size:22px;font-family:幼圆;overflow:hidden;}
+#OM_L_DIV,#OM_R_DIV{height:270px;overflow-x:hidden;overflow-y:scroll;}
+#OM_current_UL{height:auto;}
+#OM_Msg_LIST1,#OM_Msg_LIST2{width:100%;padding:5px;}
+#OM_Msg_LIST1{text-align:left;}
+#OM_Msg_LIST2{text-align:right;}
+#OM_current_title_div{color:#f90;}
+#OM_current_UL li,#OM_weidu_UL li{height:25px;width:100%;background:#eef;color:#CCf;cursor:point;font-weight:bold;padding-top:5px;}
+#OM_current_UL span,#OM_weidu_UL span{width:100%;height:25px;line-height:25px;}
+</style>
+
+<a href="#" onclick="show('OM_scfyj');return false;">[OM即时交谈 <b><font color=yellow id="OM_weidu_msg_count">0</font></b> ]</a>
+<div id="OM_scfyj" style="display:inline;filter:alpha(opacity=100);opacity:1;left:110px; top:30px; width:1091px; height:410px">
+
+	<div id="OM_tit">
+		<div class="tit1">会话列表<input type="hidden" id="OM_session_LIST" value=""></div>
+		<div class="tit2">当前会话 （<span id="OM_current_title_div">当前没有打开的会话</span>）</div>
+		<div class="tit3">消息盒子</div>
+	</div>
+	<div style="position:absolute;left:0px;top:300px;width:100%;height:160px;border-top:solid 1 #f90;float:left">
+		<div class="tit1">
+			<button onclick="close_session(OM_current_session_div.innerHTML)" style="width:80px;height:32px;margin:20px 10px 0 10px;">关闭当前会话</button>
+			<button onclick="close_all_session()" style="width:80px;height:32px;margin:10px 10px 0 10px;">关闭所有会话</button>
+		</div>
+		<div class="tit2"> &nbsp;<button id="OM_select_receiver" style="width:80px;height:25px;" onclick="window.open ('admin.php?ac=user_checkbox&fileurl=public&inputname=OM_receiver&user=', 'newwindow', 'height=500, width=500, top=50, left=100, toolbar=no, menubar=no, scrollbars=yes, resizable=no,location=no, status=no');return false;">选择接收人：</button>
+			<form style="margin:0px;display:inline" name="save">
+				<input type="text" readonly="readonly" id="OM_receiver" name="OM_receiver">
+				<input type="hidden" id="OM_receiverphone">
+				<input type="hidden" id="OM_receiverid" name="OM_receiverid" value="">
+			</form>
+			<button id="OM_Send_Button" onclick="send_click();return false;" style="width:60px;height:25px;">发送消息</button>
+			<textarea id="OM_Send_Msg" onkeydown="send_Key_check()"></textarea>
+		</div>
+		<div class="tit3">
+			<form name="OM_Set" style="text-align:left;margin:5 0 0 5px;">
+			<br>
+			<font color=#226622>快捷发送设置：</font><br>
+			<input type="radio" name="sendKey" checked onclick="OM_sendKey='ctrl';">按Ctrl+Enter发送<br>
+			<input type="radio" name="sendKey" onclick="OM_sendKey='';">按Enter发送<br>
+			</form>
+		</div>
+		<div style="position:absolute;left:0px;top:140px;width:100%;float:left;">
+			<a href="#" onclick="javascript:closeed('OM_scfyj');return false;" style="position:absolute;left:5px;color:#6666FF;">最小化</a>
+			<a href="#" onclick="javascript:closeed('OM_scfyj');return false;" style="position:absolute;right:5px;color:#6666FF;">最小化</a>
+		</div>
+	
+	</div>
+
+  <div id="OM_L_DIV" class="tit1">
+	  <ul id="OM_current_UL">
+	  </ul>
+  </div>
+  <div id="OM_current_session_div">当前没有打开的会话</div>
+  <div id="OM_M_DIV" class="tit2">
+  </div>
+  <div id="OM_R_DIV" class="tit3">
+	<ul id="OM_weidu_UL">
+	</ul>
+  </div>
+  <div id="OM_Tip">
+	  <div id="OM_Tip_Msg"></div>
+	  <div id="OM_Tip_ButS"></div>
+  </div>
+</div> 
+
+
+
+<script>
+var OM_JQ_opTime=new Date().getTime()+1000;//jq ajax上次操作返回时间  第一次打开页面默认5秒后开始
+var OM_JQ_jgTime=1000;//jq ajax操作间隔时间
+var OM_sendKey="ctrl";
+OM_Timer1();
+show('OM_scfyj');
+closeed('OM_scfyj');
+function OM_Timer1(){
+	if(new Date().getTime()-OM_JQ_opTime>OM_JQ_jgTime){OM_J_Q("auto_run");}//如果离上次操作时间已经过了操作间隔时间,则调用J——Q
+	setTimeout("OM_Timer1();",1000);//回调本身
+}
+function show_dh(id){
+	var e=document.getElementById("OM_session_LI"+id);
+	if (e){
+		setTimeout("e.style.background='yellow';",200);
+		setTimeout("e.style.background='';",400);
+		setTimeout("e.style.background='yellow';",600);
+		setTimeout("e.style.background='';",800);
+		setTimeout("e.style.background='yellow';",1000);
+		setTimeout("e.style.background='';",1200);
+	}
+}
+
+function OM_J_Q(str){
+OM_JQ_opTime=new Date().getTime();
+//OM_weidu_msg_count.innerHTML=parseInt(OM_weidu_msg_count.innerHTML)+1;
+	var u="";
+	var uid="";
+	var msg="";//分别为要获取消息的ID/指定发送消息的ID，指定发送的消息内容
+	
+	//if(OM_current_session_div.innerHTML!="当前没有打开的会话"){u=OM_current_session_div.innerHTML;}
+	
+	if(str=="auto_run"){//如果是系统自动运行,见上一行
+		if(OM_current_session_div.innerHTML!="当前没有打开的会话" && OM_scfyj.style.display!="none"){u=OM_current_session_div.innerHTML;}
+	}else if(str=="send_msg"){//如果是用户自己发送消息
+		if(OM_current_session_div.innerHTML!="当前没有打开的会话"){u=OM_current_session_div.innerHTML;}
+		uid=document.save.OM_receiverid.value;
+		msg=OM_Send_Msg.value;
+	}else if(str=="open"){//开启即时交谈功能
+		//
+	}else if(str=="close"){//关闭即时交谈功能
+		//
+	}
+////blert("U:"+u+"||UID:"+uid+"||MSG:"+msg);
+   jQuery.ajax({
+      type: 'POST',
+	  data: {"u":u,"uid":uid,"msg":msg},
+      url: 'inc/om.php?om_ac='+str+'&date='+new Date(),
+      success: function(data){
+	  	//
+		////blert("JQ成功："+data);
+		var getStr=data;
+		if(getStr.indexOf("OM_JQ_get_OK")>-1){//如果服务器正常返回数据
+			var OM_return_Str=getStr.split("<OM_EC_JG...//>");
+			var OM_CtrlStr=OM_return_Str[0];//服务器返回控制头
+			var OM_new_msg=OM_return_Str[1];//服务器返回新消息
+			var OM_wei_du=OM_return_Str[2];//服务器返回未读消息条数
+			var i;
+			if(OM_JQ_jgTime<11000){OM_JQ_jgTime+=100;}//如果间隔时间小于11秒，则轮询间隔加0.1秒
+
+			if(OM_CtrlStr.indexOf("[Send_OK]")>-1 && str=="send_msg"){//如果操作中包含发送消息且服务器返回成功信息
+				////blert("操作状态为‘发送成功’");
+				var str_arr=uid.split("\,");
+				var board = document.getElementById("OM_M_DIV");
+				var object;
+				var e,d;
+				var server_Time=OM_CtrlStr.split(">")[1];//服务器在返回发送成功时在字串后直接添加服务器当前时间
+				for (i=0;i<str_arr.length;i++)
+				{
+					e=document.getElementById("OM_session_"+str_arr[i]);
+					if(e){
+						//
+						d=document.createElement("pre");
+						d.id="OM_Msg_LIST2";
+						d.innerHTML="<p><font color='#337733'>"+server_Time+"</font> <font color='red'>[ 我 ] </font><br>"+msg+"</p>";
+						object=e.appendChild(d);
+						e.scrollTop=d.offsetTop;
+					}else{
+						//
+						////blert("出错，不能向没有打开的会话里添加聊天内容");
+					}
+					OM_Send_Msg.value="";
+				}
+			}else if(str=="send_msg"){//如果只是操作中有发送请求但服务器没有返回成功信息
+				//blert("操作状态为‘发送失败’"+getStr+"||"+u+"||"+uid+"||"+msg);alert(getStr);
+			}
+			if(OM_CtrlStr.indexOf("[new_msg]")>-1){//如果当前有未读消息
+//-----------------------------------------------------------------------------
+				//blert("获取所有消息成功");
+				var str_arr=OM_new_msg.split("<OM_JG...//>");
+				var xLIST="";
+				var object;
+				var e,d;
+				OM_JQ_jgTime=1000;
+				for(i=1;i<str_arr.length;i+=3){
+					e=document.getElementById("OM_session_"+str_arr[i]);
+					if(e){
+						//
+						d=document.createElement("pre");
+						d.id="OM_Msg_LIST1";
+						d.innerHTML="<p> <font color='blue'> "+document.getElementById("OM_session_LI_n"+str_arr[i]).innerHTML+" </font> <font color='#F90'>"+str_arr[i+1]+"</font><br>"+str_arr[i+2]+"</p>";
+						object=e.appendChild(d);
+						e.scrollTop=d.offsetTop;
+						if(str_arr[i]!=OM_current_session_div.innerHTML){
+							//alert(str_arr[i]+"有新消息,但是你把窗口切换到另外会话！");
+							show_dh(str_arr[i]);//动画形式晃动提示
+						}//如果当前聊天会话已切换到其他人，则显示提示
+					}else{
+						//
+						//blert("出错，不能向没有打开的会话里添加聊天内容"+str_arr[i]);
+					}
+
+				}
+//-----------------------------------------------------------------------------------
+			}
+			var xLIST="";
+			if(OM_CtrlStr.indexOf("[wei_du]")>-1){//如果当前有未读消息
+				////blert("刷新未读消息成功");
+				//OM_weidu_UL.innerHTML=getStr;
+				var str_arr2=OM_wei_du.split("\,");//服务器返回的未读消息之间用英文逗号隔开
+				//var oLIST="\,"+OM_session_LIST.value;//已打开的会话列表
+				OM_weidu_msg_count.innerHTML="0";
+				OM_JQ_jgTime=1000;
+				////blert(getStr);
+				for (i=1;i<str_arr2.length;i+=3){//I从1开始是因为服务器返回<!--OK-->NO！ 从0开始
+					//alertt(str_arr[i]+str_arr[i+1]+str_arr[i+2]);
+					//alertt("\,"+str_arr[i]+"\,");
+					//if(oLIST.indexOf("\,"+str_arr[i]+"\,")>-1){
+						////blert("获取到已打开列表中的未读消息");
+						//to_get_MSG=true;
+					//}else{
+					////blert("获取到未读的消息"+u);
+					OM_weidu_msg_count.innerHTML=parseInt(OM_weidu_msg_count.innerHTML)+parseInt(str_arr2[i+2]);
+					OM_weidu_msg_count.innerHTML+="+";
+					xLIST+="<li onmouseout='li_out(this);' onmouseover='li_over(this);' onclick=open_session('"+str_arr2[i]+"','"+str_arr2[i+1]+"')><span>"+str_arr2[i+1]+" (<label class='OM_num'>"+str_arr2[i+2]+")</label></span></li>";
+					//			$out_HTML.=".$row['sender']."\",\"".$uname."\");this.outerHTML=\"\";'>".$uname.;
+					//}
+				}
+			}else{
+				OM_weidu_msg_count.innerHTML="0";
+			}
+			OM_weidu_UL.innerHTML=xLIST;//将（除去已打开的会话）未读列表显示出来
+
+		}else{//如果服务器没有返回OM_JQ_get_OK串
+			alertt("服务器返回错误:"+getStr);
+		}
+		if(str=="send_msg"){open_input();}//如果当前操作为发送消息，则启用输入元素
+		//blert(u);
+	  },
+	  error: function(){
+	  	alertt("网络出错：请检查与服务器的连接是否正常！");
+		if(str=="send_msg"){open_input();}//如果当前操作为发送消息，则启用输入元素
+	  }
+	});
+	//
+}
+
+//##############################################################################
+function li_out(e){
+e.style.background="";
+}
+function li_over(e){
+e.style.background="#6ff";
+}
+function alertt(str){
+ OM_Tips(str,["OK"],[""]);
+}
+//function //blert(str){
+//	OM_debug.innerHTML="<br>"+str+new Date()+"<br>";//+OM_debug.innerHTML;
+//}
+//document.all.OM_scfyj.style.display='none';
+//OM_Tips_return();
+
+//setTimeout("OM_JQ('get_count');",5000,"javascript");//5秒后启动即时交谈
+
+
+var prox;
+var proy;
+var proxc;
+var proyc;
+function show(id){/*--打开--*/
+clearInterval(prox);
+clearInterval(proy);
+clearInterval(proxc);
+clearInterval(proyc);
+
+var o = document.getElementById(id);
+o.style.display = "block";
+o.style.left=-650;
+o.style.top=110;
+o.scrollTop=0;
+OM_JQ_jgTime=1000;
+o.style.width = "1px";
+o.style.height = "30px"; 
+prox = setInterval(function(){openx(o,763)},10);
+}
+function send_Key_check(){
+if(event.keyCode!="13"){return false;}
+	var ctrl_Key=false;
+	if (OM_sendKey=="ctrl"){ctrl_Key=true;}
+	
+	if (ctrl_Key==event.ctrlKey){
+		send_click();
+	}else{
+		OM_Send_Msg.focus();
+		if(event.ctrlKey){document.selection.createRange().text="\r";}
+	}
+}
+function OM_Tips(str,but_arr,script_arr){
+	OM_Tip_Msg.innerHTML=str;
+	OM_Tip_ButS.innerHTML="";
+	OM_Tip.style.display="inline";
+
+	var i;
+	var but_HTML;
+	but_HTML="";
+
+	for (i=0;i<but_arr.length;i++)
+	{
+	but_HTML=but_HTML+"<button onclick=\""+script_arr[i]+";OM_Tips_return("+i+");\">"+but_arr[i]+"</button> &nbsp;";
+	}
+	OM_Tip_ButS.innerHTML=but_HTML;
+}
+function OM_Tips_return(i){
+	OM_Tip_ButS.innerHTML="";
+	OM_Tip.style.display='none';
+}
+function open_input(){
+		OM_Send_Button.disabled=false;
+		OM_select_receiver.disabled=false;
+		OM_Send_Msg.disabled=false;
+		OM_Send_Msg.focus();
+
+}
+function send_click(){
+		OM_Send_Button.disabled=true;
+		OM_select_receiver.disabled=true;
+		OM_Send_Msg.disabled=true;
+	if (OM_Send_Msg.value=="" || document.save.OM_receiverid.value==""){
+		OM_Tips("消息内容与接收人不能为空！",["知道了"],["open_input()"]);//
+		return false;
+	}
+	var uid=document.save.OM_receiverid.value;
+	
+	if(uid.indexOf(",")>-1){
+		OM_Tips("您正向多个人发送消息，是否打开与所有接收人的对话？",["是的，我要分别和所有人对话","不用了"],["open_session(document.save.OM_receiverid.value,document.save.OM_receiver.value)",""]);
+	}else{
+		open_session(uid,document.save.OM_receiver.value);
+	}
+	OM_J_Q('send_msg');
+}
+function switch_session(uid){
+	var e=document.getElementById("OM_session_LI_n"+uid);
+	if(e){//如果当前会话列表中有这个UID则显示
+		var uname=e.innerHTML;
+		uname=uname.substr(2,uname.length-4);
+		open_session(""+uid,uname);
+	}else{//否则显示为
+		OM_current_title_div.innerHTML="当前没有打开的会话";
+		OM_current_session_div.innerHTML="当前没有打开的会话";
+		//
+	}
+}
+function close_all_session(){
+	OM_M_DIV.innerHTML="";
+	OM_current_UL.innerHTML="";
+	OM_session_LIST.value="";
+	OM_current_title_div.innerHTML="当前没有打开的会话";
+	OM_current_session_div.innerHTML="当前没有打开的会话";
+}
+function close_session(uid){
+	var sList=","+OM_session_LIST.value;
+	sList=sList.replace(","+uid+",",",");
+	OM_session_LIST.value=sList.substr(1,sList.length);
+	var e=document.getElementById("OM_session_LI_"+uid);
+	if(e){//如果左侧列表中存在UID
+		var e2=document.getElementById("OM_session_"+uid);
+		e.outerHTML="";
+		e2.outerHTML="";
+		//获取下一个当前会话人
+		switch_session(parseInt(OM_session_LIST.value));//套上parseInt是为了过滤后续字串，只选择第一个UID
+	//var e=document.getElementById("");
+	}
+}
+function open_session(uid,uname){
+
+	var str=uid;
+	var str2=uname;
+	var str_arr=str.split("\,");
+	var str2_arr=str2.split("\,");
+	var board = document.getElementById("OM_M_DIV");
+	var current_UL = document.getElementById("OM_current_UL");
+	var c_uid;//用于获取当前会话uid
+	var i;
+	var object,object2;
+	var e,l;
+	for (i=0;i<str_arr.length;i++)
+	{
+		c_uid=OM_current_session_div.innerHTML;
+		//alert("序列："+i+"，uid："+str_arr[i]+"，c_uid:"+c_uid);
+		if(c_uid!=str_arr[i]){//如果操作的不是当前uid才执行以下代码
+		////blert("如果操作的不是当前uid才执行以下代码");
+			if(c_uid!="当前没有打开的会话"){
+				////blert("当前有打开的会话");
+				var old_session_uid=document.getElementById("OM_session_"+c_uid);
+				if(old_session_uid){old_session_uid.style.display="none";}
+			}
+			//else{
+				//blert("当前没有打开的会话");
+			//}
+			OM_current_session_div.innerHTML=str_arr[i];//设置当前会话uid
+			OM_current_title_div.innerHTML=str2_arr[i];
+			document.save.OM_receiver.value=str2_arr[i];
+			document.save.OM_receiverid.value=str_arr[i];
+			document.save.OM_receiverphone.value="";
+			if(document.getElementById("OM_session_"+str_arr[i])){//如果会话已被创建，则显示
+				//blert("已被创建，则显示");
+				document.getElementById("OM_session_"+str_arr[i]).style.display="inline";
+			}else{//如果会话未被创建，则创建并显示
+				//blert("未创建，需要创建并显示");
+				
+				e=document.createElement("div");
+				e.id="OM_session_"+str_arr[i];
+				e.innerHTML = "";
+				object = board.appendChild(e);
+				//创建会话窗口
+				l=document.createElement("li");
+				l.id="OM_session_LI_"+str_arr[i];//由于IE不支持用setAttribute设置onclick，所以用innerHTML包含ID：OM_session_LI_n+str_arr[i]
+				l.innerHTML="<span id='OM_session_LI_n"+str_arr[i]+"' onclick='switch_session("+str_arr[i]+")' onmouseout='li_out(this);' onmouseover='li_over(this);'>[ "+str2_arr[i]+" ]</span>";
+				object=current_UL.appendChild(l);
+				OM_session_LIST.value+=str_arr[i]+","
+			}
+		}
+	OM_L_DIV.scrollTop=document.getElementById("OM_session_LI_"+str_arr[i]).offsetTop;
+	}
+return 0;
+}
+
+function openx(o,x){/*--打开x--*/
+var cx = parseInt(o.style.width);
+if(cx < x)
+{
+o.style.width = (cx + Math.ceil((x-cx)/5)) +"px";
+}
+else
+{
+clearInterval(prox);
+proy = setInterval(function(){openy(o,465)},10);
+}
+}
+function openy(o,y){/*--打开y--*/
+var cy = parseInt(o.style.height);
+if(cy < y)
+{
+o.style.height = (cy + Math.ceil((y-cy)/5)) +"px";
+}
+else
+{
+clearInterval(proy);
+}
+}
+function closeed(id){/*--关闭--*/
+clearInterval(prox);
+clearInterval(proy);
+clearInterval(proxc);
+clearInterval(proyc);
+var o = document.getElementById(id);
+if(o.style.display == "block")
+{
+proyc = setInterval(function(){closey(o)},10);
+}
+}
+function closey(o){/*--打开y--*/
+var cy = parseInt(o.style.height);
+if(cy > 28)
+{
+o.style.height = (cy - Math.ceil(cy/5)) +"px";
+}
+else
+{
+clearInterval(proyc);
+proxc = setInterval(function(){closex(o)},10);
+}
+}
+function closex(o){/*--打开x--*/
+var cx = parseInt(o.style.width);
+if(cx > 0)
+{
+o.style.width = (cx - Math.ceil(cx/5)) +"px";
+}
+else
+{
+clearInterval(proxc);
+o.style.display = "none";
+OM_JQ_jgTime=10000;
+}
+}
+/*-------------------------鼠标拖动---------------------*/
+var od = document.getElementById("OM_scfyj");
+var dx,dy,mx,my,mouseD;
+var odrag;
+var isIE = document.all ? true : false;
+document.onmousedown = function(e){
+var e = e ? e : event;
+if(e.button == (document.all ? 1 : 0))
+{
+mouseD = true;
+}
+}
+document.onmouseup = function(){
+mouseD = false;
+odrag = "";
+if(isIE)
+{
+od.releaseCapture();
+od.filters.alpha.opacity = 100;
+}
+else
+{
+window.releaseEvents(od.MOUSEMOVE);
+od.style.opacity = 1;
+}
+}
+//function readyMove(e){
+OM_tit.onmousedown = function(e){
+odrag = this;
+var e = e ? e : event;
+if(e.button == (document.all ? 1 : 0))
+{
+mx = e.clientX;
+my = e.clientY;
+od.style.left = od.offsetLeft + "px";
+od.style.top = od.offsetTop + "px";
+if(isIE)
+{
+od.setCapture();
+od.filters.alpha.opacity = 50;
+}
+else
+{
+window.captureEvents(Event.MOUSEMOVE);
+od.style.opacity = 0.7;
+}
+//alert(mx);
+//alert(my);
+} 
+}
+document.onmousemove = function(e){
+var e = e ? e : event;
+//alert(mrx);
+//alert(e.button);
+if(mouseD==true && odrag)
+{
+var mrx = e.clientX - mx;
+var mry = e.clientY - my;
+od.style.left = parseInt(od.style.left) +mrx + "px";
+od.style.top = parseInt(od.style.top) + mry + "px";
+mx = e.clientX;
+my = e.clientY;
+}
+}
+
+</script>
+<?
+}else{//如果ac参数不为空则执行以下代码
+
+	define('IN_ADMIN',True);
+	require_once('../include/common.php');
+	get_login($_USER->id);
+	//检查是否登录
+
+	$s1="";//Send_OK
+	$s2="";//wei_du
+	$s3="";//new_msg
+	$s4="";//time
+	if($_GET[om_ac]=='send_msg'){//如果是发送消息
+		$uid=$_POST[uid];
+		$msg=$_POST[msg];
+		if($uid=='' || $msg==''){
+		//echo "出现异常,消息发送失败";
+		//exit;
+		}else{
+			$uid_arr=explode(',',$uid);
+			$msg = encrypt($msg, 'E', 'Minner.cn');
+			$sql="insert into toa_om (sender,receiver,s_Time,msg) values";
+			$value_JG="";
+			foreach ($uid_arr as $key => $value) { 
+				$sql.="$value_JG($_USER->id,$value,now(),'$msg')";
+				$value_JG=",";
+			}
+			mysql_query($sql);
+			$s1="[Send_OK]";
+			date_default_timezone_set("PRC");
+			$s4=date("Y-m-d H:i:s");
+		}
+	}
+	
+		$u=$_POST[u];
+		if($u!=''){
+			$where_str=" and sender in('".$u."')";
+			$sql="select sender,s_Time,msg from toa_om where isnull(r_Time) and receiver=$_USER->id".$where_str." order by s_Time asc";
+			$out_new_msg="";
+			$uname="";
+			$JG="<OM_JG...//>";
+			$result2=$db->query($sql);
+			while ($row = $db->fetch_array($result2)) {
+				//
+				$uname=get_realname($row['sender']);
+				$out_new_msg.=$JG.$row['sender'].$JG.$row['s_Time'].$JG.encrypt($row['msg'], 'D', 'Minner.cn');
+			}//如果有新消息才更新为已读
+			if($uname!=""){$s3="[new_msg]";mysql_query("update toa_om set r_Time=now() where isnull(r_Time) and receiver=$_USER->id".$where_str);}
+		}
+
+		//获取哪些人发来消息，分别多少条   未读消息列表
+		$sql="select sender,count(id) as num from toa_om where isnull(r_Time) and receiver=$_USER->id group by sender order by sender";
+		$out_wei_du="";
+		$uname="";
+		$result = $db->query($sql);
+		while ($row = $db->fetch_array($result)) {
+			$uname=get_realname($row['sender']);
+			$out_wei_du.=",".$row['sender'].",".$uname.",".$row['num'];
+		}
+		if($uname!=""){$s2="[wei_du]";}
+	
+		echo $u."--".$_GET[om_ac];
+		?><--OM_JQ_get_OK
+		<? echo $s1.$s2.$s3;
+		?>-->
+		<? echo $s4."<OM_EC_JG...//>".$out_new_msg."<OM_EC_JG...//>".$out_wei_du;
+	if($om_ac=='open'){
+	}elseif($om_ac=='close'){
+	}elseif($om_ac==''){
+	}
+
+
+}//程序结束
+
+
+
+
+
+
+
+
+//以下为加密&解密模块
+function encrypt($string,$operation,$key=''){
+	$key=md5($key);
+	$key_length=strlen($key);
+	$string=$operation=='D'?base64_decode($string):substr(md5($string.$key),0,8).$string;
+	$string_length=strlen($string);
+	$rndkey=$box=array();
+	$result='';
+	for($i=0;$i<=255;$i++){
+		$rndkey[$i]=ord($key[$i%$key_length]);
+		$box[$i]=$i;
+	}
+	for($j=$i=0;$i<256;$i++){
+		$j=($j+$box[$i]+$rndkey[$i])%256;
+		$tmp=$box[$i];
+		$box[$i]=$box[$j];
+		$box[$j]=$tmp;
+	}
+	for($a=$j=$i=0;$i<$string_length;$i++){
+		$a=($a+1)%256;
+		$j=($j+$box[$a])%256;
+		$box[$a]=$box[$j];
+		$box[$j]=$tmp;
+		$result.=chr(ord($string[$i])^($box[($box[$a]+$box[$j])%256]));
+	}
+	if($operation=='D'){
+		if(substr($result,0,8)==substr(md5(substr($result,8).$key),0,8)){
+			return substr($result,8);
+		}
+		else{
+			return'';
+		}
+	}
+	else{
+		return str_replace('=','',base64_encode($result));
+	}
+}
+
+?>

@@ -1,0 +1,124 @@
+    <html xmlns:o="urn:schemas-microsoft-com:office:office"
+    xmlns:x="urn:schemas-microsoft-com:office:excel"
+    xmlns="http://www.w3.org/TR/html4/loose.dtd">
+    <head>
+    <meta http-equiv=Content-Type content="text/html; charset=utf-8">
+    <meta name=ProgId content=Excel.Sheet>
+    <!--[if gte mso 9]><xml>
+     <o:DocumentProperties>
+      <o:LastAuthor>Rising</o:LastAuthor>
+      <o:LastSaved>2005-01-02T07:46:23Z</o:LastSaved>
+      <o:Version>10.2625</o:Version>
+     </o:DocumentProperties>
+     <o:OfficeDocumentSettings>
+      <o:DownloadComponents/>
+     </o:OfficeDocumentSettings>
+    </xml><![endif]-->
+    <style>
+    <!--table
+     {mso-displayed-decimal-separator:"\.";
+     mso-displayed-thousand-separator:"\,";}
+    @page
+     {margin:1.0in .75in 1.0in .75in;
+     mso-header-margin:.5in;
+     mso-footer-margin:.5in;}
+    tr
+     {mso-height-source:auto;}
+    col
+     {mso-width-source:auto;}
+    br
+     {mso-data-placement:same-cell;}
+    .style0
+     {mso-number-format:General;
+     text-align:general;
+     vertical-align:bottom;
+     white-space:nowrap;
+     mso-rotate:0;
+     mso-background-source:auto;
+     mso-pattern:auto;
+     color:windowtext;
+     font-size:10.0pt;
+     font-weight:400;
+     font-style:normal;
+     text-decoration:none;
+     font-family:Arial;
+     mso-generic-font-family:auto;
+     mso-font-charset:0;
+     border:none;
+     mso-protection:locked visible;
+     mso-style-name:Normal;
+     mso-style-id:0;}
+    td
+     {mso-style-parent:style0;
+     padding-top:1px;
+     padding-right:1px;
+     padding-left:1px;
+     mso-ignore:padding;
+     color:windowtext;
+     font-size:10.0pt;
+     font-weight:400;
+     font-style:normal;
+     text-decoration:none;
+     font-family:Arial;
+     mso-generic-font-family:auto;
+     mso-font-charset:0;
+     mso-number-format:General;
+     text-align:general;
+     vertical-align:bottom;
+     border:none;
+     mso-background-source:auto;
+     mso-pattern:auto;
+     mso-protection:locked visible;
+     white-space:nowrap;
+     mso-rotate:0;}
+    .xl24
+     {mso-style-parent:style0;
+     white-space:normal;}
+    -->
+    </style>
+    <!--[if gte mso 9]><xml>
+     <x:ExcelWorkbook>
+      <x:ExcelWorksheets>
+       <x:ExcelWorksheet>
+     <x:Name>Sheet1</x:Name>
+     <x:WorksheetOptions>
+      <x:Selected/>
+      <x:ProtectContents>False</x:ProtectContents>
+      <x:ProtectObjects>False</x:ProtectObjects>
+      <x:ProtectScenarios>False</x:ProtectScenarios>
+     </x:WorksheetOptions>
+       </x:ExcelWorksheet>
+      </x:ExcelWorksheets>
+      
+      <x:WindowHeight>10005</x:WindowHeight>
+      <x:WindowWidth>10005</x:WindowWidth>
+      <x:WindowTopX>120</x:WindowTopX>
+      <x:WindowTopY>135</x:WindowTopY>
+      <x:ProtectStructure>False</x:ProtectStructure>
+      <x:ProtectWindows>False</x:ProtectWindows>
+     </x:ExcelWorkbook>
+    </xml><![endif]-->
+    </head>
+    <body link=blue vlink=purple>
+    <table x:str border=0 cellpadding=0 cellspacing=0 style='border-collapse: collapse;table-layout:fixed;'><tr><td class=xl24 width=64 x:num>接收人</td><td class=xl24 width=64 x:num>发送人</td><td class=xl24 width=64 x:num>发送时间</td><td class=xl24 width=64 x:num>内容</td></tr><tr><td class=xl24 width=64 x:num>刘维嘉</td><td class=xl24 width=64 x:num>包文</td><td class=xl24 width=64 x:num>2014.11.11 11:14:02</td><td class=xl24 width=64 x:num>传来一个公文需要审批，请进入公文待办进行审批!</td></tr><tr><td class=xl24 width=64 x:num>黄宇</td><td class=xl24 width=64 x:num>包文</td><td class=xl24 width=64 x:num>2014.11.10 13:06:55</td><td class=xl24 width=64 x:num>您有一个公文需要审批，请进入公文待办进行审批!</td></tr><tr><td class=xl24 width=64 x:num>黄宇</td><td class=xl24 width=64 x:num>包文</td><td class=xl24 width=64 x:num>2014.11.10 13:05:37</td><td class=xl24 width=64 x:num>您有一个公文需要审批，请进入公文待办进行审批!</td></tr><tr><td class=xl24 width=64 x:num>黄宇</td><td class=xl24 width=64 x:num>包文</td><td class=xl24 width=64 x:num>2014.11.10 13:03:29</td><td class=xl24 width=64 x:num>您有一个公文需要审批，请进入公文待办进行审批!</td></tr><tr><td class=xl24 width=64 x:num>黄宇</td><td class=xl24 width=64 x:num>包文</td><td class=xl24 width=64 x:num>2014.11.10 13:02:13</td><td class=xl24 width=64 x:num>您有一个公文需要审批，请进入公文待办进行审批!</td></tr><tr><td class=xl24 width=64 x:num>黄宇</td><td class=xl24 width=64 x:num>包文</td><td class=xl24 width=64 x:num>2014.11.10 13:01:11</td><td class=xl24 width=64 x:num>您有一个公文需要审批，请进入公文待办进行审批!</td></tr><tr><td class=xl24 width=64 x:num>黄宇</td><td class=xl24 width=64 x:num>包文</td><td class=xl24 width=64 x:num>2014.11.10 12:59:44</td><td class=xl24 width=64 x:num>您有一个公文需要审批，请进入公文待办进行审批!</td></tr><tr><td class=xl24 width=64 x:num>黄宇</td><td class=xl24 width=64 x:num>包文</td><td class=xl24 width=64 x:num>2014.11.10 12:58:28</td><td class=xl24 width=64 x:num>您有一个公文需要审批，请进入公文待办进行审批!</td></tr><tr><td class=xl24 width=64 x:num>廖蔚</td><td class=xl24 width=64 x:num>包文</td><td class=xl24 width=64 x:num>2014.11.03 10:24:12</td><td class=xl24 width=64 x:num>传来一个公文需要审批，请进入公文待办进行审批!</td></tr><tr><td class=xl24 width=64 x:num>黄宇</td><td class=xl24 width=64 x:num>包文</td><td class=xl24 width=64 x:num>2014.10.29 16:42:27</td><td class=xl24 width=64 x:num>传来一个公文需要审批，请进入公文待办进行审批!</td></tr><tr><td class=xl24 width=64 x:num>廖蔚</td><td class=xl24 width=64 x:num>包文</td><td class=xl24 width=64 x:num>2014.10.29 16:22:48</td><td class=xl24 width=64 x:num>传来一个公文需要审批，请进入公文待办进行审批!</td></tr><tr><td class=xl24 width=64 x:num>雷勇</td><td class=xl24 width=64 x:num>包文</td><td class=xl24 width=64 x:num>2014.09.16 16:33:46</td><td class=xl24 width=64 x:num>雷哥：这是社扶在准备纸质资料后按自查要求准备的自查材料。包文</td></tr><tr><td class=xl24 width=64 x:num>雷勇</td><td class=xl24 width=64 x:num>包文</td><td class=xl24 width=64 x:num>2014.09.16 16:32:16</td><td class=xl24 width=64 x:num>国际合作与社会扶贫处有关情况
+
+
+一、研究制定改革创新指导意见或试点方案
+1、社会组织参与扶贫开发改革创新。省扶贫移民局等15部门已联合出台《关于印发〈四川省创新扶贫开发社会参与机制实施方案〉的通知》（川扶贫移民发[2014]214号）。
+2、《关于深入推进金融支持扶贫惠农工程，做好四川省扶贫开发金融服务工作的实施意见》。省政府已出台《四川省人民政府办公厅转发人行成都分行等部门关于深入推进金融支持扶贫惠农工程，做好四川省扶贫开发金融服务工作的实施意见》（川办函[2014]115号）。
+二、成效
+4、制定了第六批定点扶贫干部选派工作方案。该项工作省委组织部正在办理，待正式文件出台后，我们再转交。
+5、四川永鑫农牧集团股份有限公司等5家扶贫龙头企业贷款总额18.74亿元。此项工作属于四川省扶贫开发中心负责。
+6、特困农户与帮扶主体对接见面。今年初，完成了“结对认亲，爱心扶贫”试点活动， 190户农村特困户已经进行面对面结对帮扶。
+
+三、定点扶贫
+1、请提供22个在川定点扶贫中央单位派出的扶贫干部、培训情况、投入资金、引进资金和帮扶项目资料。据市（州）
+2、浙江、珠海扶贫协作项目、资金等情况。
+3、请提供省内对口定点扶贫派驻干部、帮扶项目、投入资金、引进资金等资料。
+今年上半年，以上3个方面的工作开展情况如下：
+配合22个在川定点扶贫的中央国家机关（单位）抓好帮扶工作落实，扎实推进239个省直部门（单位）对87个片区县的定点扶贫工作；深入推进东西扶贫协作，确定浙江帮扶四川藏区资金1.37亿元，重点实施帮扶项目75个，珠海市帮扶凉山州资金2397万元、项目37个正在协调落实。上半年，社会扶贫投引资达22亿元，引进人才2587名、项目4865个，覆盖贫困户63.67万户323.18万人。
+     4、社会各界参与扶贫，制定了《“结对认亲、爱心帮扶”活动实施方案》。今年已出台《四川省扶贫和移民工作局关于印发〈建立“结对认亲、爱心帮扶”活动平台实施方案（试行）〉的通知》（川扶贫移民发〔2014〕186号）。
+
+
+                        国际合作与社会扶贫处
+                         2014年9月16日</td></tr><tr><td class=xl24 width=64 x:num>罗薇</td><td class=xl24 width=64 x:num>包文</td><td class=xl24 width=64 x:num>2014.09.10 10:47:33</td><td class=xl24 width=64 x:num>对《战略合作框架协议》无意见建议。包文</td></tr><tr><td class=xl24 width=64 x:num>张谷,刘兵,邹积立,何智彬,向伟益,刘维嘉,张华林,都勤,郭全喜,张海鹏,汪社林,张学勤</td><td class=xl24 width=64 x:num>包文</td><td class=xl24 width=64 x:num>2014.08.26 15:42:54</td><td class=xl24 width=64 x:num>请您收阅《四川省扶贫和移民工作局关于切实做好清理整治奢华浪费建设工作的通知》（川扶贫移民发〔2014〕224号）。审计稽察处，包文。<a href="data/uploadfile/52/20140826/20140826074245.doc" target="_blank">附件下载</a></td></tr><tr><td class=xl24 width=64 x:num>杨晖</td><td class=xl24 width=64 x:num>包文</td><td class=xl24 width=64 x:num>2014.08.25 17:36:02</td><td class=xl24 width=64 x:num>传来一个公文需要审批，请进入公文待办进行审批!</td></tr><tr><td class=xl24 width=64 x:num>刘燕</td><td class=xl24 width=64 x:num>包文</td><td class=xl24 width=64 x:num>2014.07.25 17:51:26</td><td class=xl24 width=64 x:num>从这里传过来</td></tr><tr><td class=xl24 width=64 x:num>李洁,李灵英</td><td class=xl24 width=64 x:num>包文</td><td class=xl24 width=64 x:num>2014.06.26 14:41:45</td><td class=xl24 width=64 x:num>您有一个公文需要审批，请进入公文待办进行审批!</td></tr><tr><td class=xl24 width=64 x:num>李洁</td><td class=xl24 width=64 x:num>包文</td><td class=xl24 width=64 x:num>2014.06.16 15:22:57</td><td class=xl24 width=64 x:num>您有一个公文需要审批，请进入公文待办进行审批!<a href="http://171.221.174.3:5104/admin.php?ac=attachment&fileurl=app&type=1&menuid=251&">查看</a></td></tr><tr><td class=xl24 width=64 x:num>李洁</td><td class=xl24 width=64 x:num>包文</td><td class=xl24 width=64 x:num>2014.06.16 15:17:21</td><td class=xl24 width=64 x:num>您有一个公文需要审批，请进入公文待办进行审批!<a href="http://171.221.174.3:5104/admin.php?ac=attachment&fileurl=app&type=1&menuid=251&">查看</a></td></tr><tr><td class=xl24 width=64 x:num>李洁</td><td class=xl24 width=64 x:num>包文</td><td class=xl24 width=64 x:num>2014.06.16 15:02:45</td><td class=xl24 width=64 x:num>您有一个公文需要审批，请进入公文待办进行审批!<a href="http://171.221.174.3:5104/admin.php?ac=attachment&fileurl=app&type=1&menuid=251&">查看</a></td></tr><tr><td class=xl24 width=64 x:num>李洁,李灵英</td><td class=xl24 width=64 x:num>包文</td><td class=xl24 width=64 x:num>2014.06.12 15:47:03</td><td class=xl24 width=64 x:num>您有一个公文需要审批，请进入公文待办进行审批!<a href="http://171.221.174.3:5104/admin.php?ac=attachment&fileurl=app&type=1&menuid=251&">查看</a></td></tr><tr><td class=xl24 width=64 x:num>唐义</td><td class=xl24 width=64 x:num>包文</td><td class=xl24 width=64 x:num>2014.01.10 08:48:56</td><td class=xl24 width=64 x:num>您有一个新"流水号20140110084707 处室内部请示"需要审批,请点击查看!<a href="admin.php?ac=list&fileurl=workclass&type=1">点击审批>></a></td></tr>

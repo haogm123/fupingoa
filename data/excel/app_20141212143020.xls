@@ -1,0 +1,103 @@
+    <html xmlns:o="urn:schemas-microsoft-com:office:office"
+    xmlns:x="urn:schemas-microsoft-com:office:excel"
+    xmlns="http://www.w3.org/TR/html4/loose.dtd">
+    <head>
+    <meta http-equiv=Content-Type content="text/html; charset=utf-8">
+    <meta name=ProgId content=Excel.Sheet>
+    <!--[if gte mso 9]><xml>
+     <o:DocumentProperties>
+      <o:LastAuthor>Rising</o:LastAuthor>
+      <o:LastSaved>2005-01-02T07:46:23Z</o:LastSaved>
+      <o:Version>10.2625</o:Version>
+     </o:DocumentProperties>
+     <o:OfficeDocumentSettings>
+      <o:DownloadComponents/>
+     </o:OfficeDocumentSettings>
+    </xml><![endif]-->
+    <style>
+    <!--table
+     {mso-displayed-decimal-separator:"\.";
+     mso-displayed-thousand-separator:"\,";}
+    @page
+     {margin:1.0in .75in 1.0in .75in;
+     mso-header-margin:.5in;
+     mso-footer-margin:.5in;}
+    tr
+     {mso-height-source:auto;}
+    col
+     {mso-width-source:auto;}
+    br
+     {mso-data-placement:same-cell;}
+    .style0
+     {mso-number-format:General;
+     text-align:general;
+     vertical-align:bottom;
+     white-space:nowrap;
+     mso-rotate:0;
+     mso-background-source:auto;
+     mso-pattern:auto;
+     color:windowtext;
+     font-size:10.0pt;
+     font-weight:400;
+     font-style:normal;
+     text-decoration:none;
+     font-family:Arial;
+     mso-generic-font-family:auto;
+     mso-font-charset:0;
+     border:none;
+     mso-protection:locked visible;
+     mso-style-name:Normal;
+     mso-style-id:0;}
+    td
+     {mso-style-parent:style0;
+     padding-top:1px;
+     padding-right:1px;
+     padding-left:1px;
+     mso-ignore:padding;
+     color:windowtext;
+     font-size:10.0pt;
+     font-weight:400;
+     font-style:normal;
+     text-decoration:none;
+     font-family:Arial;
+     mso-generic-font-family:auto;
+     mso-font-charset:0;
+     mso-number-format:General;
+     text-align:general;
+     vertical-align:bottom;
+     border:none;
+     mso-background-source:auto;
+     mso-pattern:auto;
+     mso-protection:locked visible;
+     white-space:nowrap;
+     mso-rotate:0;}
+    .xl24
+     {mso-style-parent:style0;
+     white-space:normal;}
+    -->
+    </style>
+    <!--[if gte mso 9]><xml>
+     <x:ExcelWorkbook>
+      <x:ExcelWorksheets>
+       <x:ExcelWorksheet>
+     <x:Name>Sheet1</x:Name>
+     <x:WorksheetOptions>
+      <x:Selected/>
+      <x:ProtectContents>False</x:ProtectContents>
+      <x:ProtectObjects>False</x:ProtectObjects>
+      <x:ProtectScenarios>False</x:ProtectScenarios>
+     </x:WorksheetOptions>
+       </x:ExcelWorksheet>
+      </x:ExcelWorksheets>
+      
+      <x:WindowHeight>10005</x:WindowHeight>
+      <x:WindowWidth>10005</x:WindowWidth>
+      <x:WindowTopX>120</x:WindowTopX>
+      <x:WindowTopY>135</x:WindowTopY>
+      <x:ProtectStructure>False</x:ProtectStructure>
+      <x:ProtectWindows>False</x:ProtectWindows>
+     </x:ExcelWorkbook>
+    </xml><![endif]-->
+    </head>
+    <body link=blue vlink=purple>
+    <table x:str border=0 cellpadding=0 cellspacing=0 style='border-collapse: collapse;table-layout:fixed;'><tr><td class=xl24 width=64 x:num>来文编号</td><td class=xl24 width=64 x:num>份数</td><td class=xl24 width=64 x:num>来文机关</td><td class=xl24 width=64 x:num>来文字号</td><td class=xl24 width=64 x:num>来文标题</td><td class=xl24 width=64 x:num>承办结果</td><td class=xl24 width=64 x:num>签收人</td><td class=xl24 width=64 x:num>收文日期</td></tr><tr><td class=xl24 width=64 x:num>20141203102237</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>省信访局</td><td class=xl24 width=64 x:num>川信党[2014]21号</td><td class=xl24 width=64 x:num>关于李黎等10名同志到信访岗位实践锻炼定岗任职的通知</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>李华聪</td><td class=xl24 width=64 x:num>2014.12.03</td></tr><tr><td class=xl24 width=64 x:num>20141110120835</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>省委组织部</td><td class=xl24 width=64 x:num>川组通[2014]60号</td><td class=xl24 width=64 x:num>关于2014年选派中青年干部到信访岗位实践锻炼工作的通知（11月14日前报组织部干部一处，17日干部到位）</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>李华聪</td><td class=xl24 width=64 x:num>2014.11.10</td></tr><tr><td class=xl24 width=64 x:num>20141023112614</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>省委政法委</td><td class=xl24 width=64 x:num>川人社办发〔2014〕212号</td><td class=xl24 width=64 x:num>关于评选表彰四川省维护稳定工作先进集体和先进个人的通知（今日才收到文件，经与维稳办联系，要求月底报送，我局在第11页）</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>李华聪</td><td class=xl24 width=64 x:num>2014.10.23</td></tr><tr><td class=xl24 width=64 x:num>20140925163017</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>广安华蓥市扶移办</td><td class=xl24 width=64 x:num>华扶贫移民〔2014〕20号</td><td class=xl24 width=64 x:num>华蓥市扶贫和移民工作办公室关于9.13特大暴雨灾害的情况报告</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>李华聪</td><td class=xl24 width=64 x:num>2014.09.25</td></tr><tr><td class=xl24 width=64 x:num>20140926174109</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>省委农工委</td><td class=xl24 width=64 x:num>无</td><td class=xl24 width=64 x:num>关于起草《中共四川省委十届四次全会重要改革举措实施规划（2014~2020年）》（农业和农村改革部分）的通知（10.09日周四18:00前报送）</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>李华聪</td><td class=xl24 width=64 x:num>2014.09.26</td></tr><tr><td class=xl24 width=64 x:num>20140828103931</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>省政府办公厅</td><td class=xl24 width=64 x:num>B【2014】2215-2号</td><td class=xl24 width=64 x:num>《四川省贫困县农村扶贫开发工作考核办法（试行）》</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>李华聪</td><td class=xl24 width=64 x:num>2014.08.28</td></tr><tr><td class=xl24 width=64 x:num>20140815175608</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>省政府督查室</td><td class=xl24 width=64 x:num>无</td><td class=xl24 width=64 x:num>办文通知：《国务院办公厅关于对国务院政策措施落实中存在问题进行整改的通知》B[2014]2232（第19项我局为牵头单位，8月18日10:30前报送材料）</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>李华聪</td><td class=xl24 width=64 x:num>2014.08.15</td></tr><tr><td class=xl24 width=64 x:num>20140815161428</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>省政府办公厅秘书处</td><td class=xl24 width=64 x:num>无</td><td class=xl24 width=64 x:num>全国政协近期赴我省考察调研“少数民族地区群众生产生活情况”（8.19日下午6:00前报送材料）</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>李华聪</td><td class=xl24 width=64 x:num>2014.08.15</td></tr><tr><td class=xl24 width=64 x:num>20140811093154</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>省委办公厅</td><td class=xl24 width=64 x:num>川委发〔2014〕13号</td><td class=xl24 width=64 x:num>中共四川省委关于建立健全作风建设长效机制的意见</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>李华聪</td><td class=xl24 width=64 x:num>2014.08.11</td></tr><tr><td class=xl24 width=64 x:num>20140808180757</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>省政府办公厅</td><td class=xl24 width=64 x:num>B[2014]2232-31号</td><td class=xl24 width=64 x:num>省政府办文通知：请对国务院政策措施落实中需要整改的问题第十九条进行梳理，并提出整改方案（8月12日12:00前报送）</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>李华聪</td><td class=xl24 width=64 x:num>2014.08.08</td></tr><tr><td class=xl24 width=64 x:num>20140611094220</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>省新农村示范片办</td><td class=xl24 width=64 x:num>川新农办【2014】9号</td><td class=xl24 width=64 x:num>关于做好新农村建设半年总结工作通知</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>李华聪</td><td class=xl24 width=64 x:num>2014.06.11</td></tr>

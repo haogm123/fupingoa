@@ -1,0 +1,222 @@
+    <html xmlns:o="urn:schemas-microsoft-com:office:office"
+    xmlns:x="urn:schemas-microsoft-com:office:excel"
+    xmlns="http://www.w3.org/TR/html4/loose.dtd">
+    <head>
+    <meta http-equiv=Content-Type content="text/html; charset=utf-8">
+    <meta name=ProgId content=Excel.Sheet>
+    <!--[if gte mso 9]><xml>
+     <o:DocumentProperties>
+      <o:LastAuthor>Rising</o:LastAuthor>
+      <o:LastSaved>2005-01-02T07:46:23Z</o:LastSaved>
+      <o:Version>10.2625</o:Version>
+     </o:DocumentProperties>
+     <o:OfficeDocumentSettings>
+      <o:DownloadComponents/>
+     </o:OfficeDocumentSettings>
+    </xml><![endif]-->
+    <style>
+    <!--table
+     {mso-displayed-decimal-separator:"\.";
+     mso-displayed-thousand-separator:"\,";}
+    @page
+     {margin:1.0in .75in 1.0in .75in;
+     mso-header-margin:.5in;
+     mso-footer-margin:.5in;}
+    tr
+     {mso-height-source:auto;}
+    col
+     {mso-width-source:auto;}
+    br
+     {mso-data-placement:same-cell;}
+    .style0
+     {mso-number-format:General;
+     text-align:general;
+     vertical-align:bottom;
+     white-space:nowrap;
+     mso-rotate:0;
+     mso-background-source:auto;
+     mso-pattern:auto;
+     color:windowtext;
+     font-size:10.0pt;
+     font-weight:400;
+     font-style:normal;
+     text-decoration:none;
+     font-family:Arial;
+     mso-generic-font-family:auto;
+     mso-font-charset:0;
+     border:none;
+     mso-protection:locked visible;
+     mso-style-name:Normal;
+     mso-style-id:0;}
+    td
+     {mso-style-parent:style0;
+     padding-top:1px;
+     padding-right:1px;
+     padding-left:1px;
+     mso-ignore:padding;
+     color:windowtext;
+     font-size:10.0pt;
+     font-weight:400;
+     font-style:normal;
+     text-decoration:none;
+     font-family:Arial;
+     mso-generic-font-family:auto;
+     mso-font-charset:0;
+     mso-number-format:General;
+     text-align:general;
+     vertical-align:bottom;
+     border:none;
+     mso-background-source:auto;
+     mso-pattern:auto;
+     mso-protection:locked visible;
+     white-space:nowrap;
+     mso-rotate:0;}
+    .xl24
+     {mso-style-parent:style0;
+     white-space:normal;}
+    -->
+    </style>
+    <!--[if gte mso 9]><xml>
+     <x:ExcelWorkbook>
+      <x:ExcelWorksheets>
+       <x:ExcelWorksheet>
+     <x:Name>Sheet1</x:Name>
+     <x:WorksheetOptions>
+      <x:Selected/>
+      <x:ProtectContents>False</x:ProtectContents>
+      <x:ProtectObjects>False</x:ProtectObjects>
+      <x:ProtectScenarios>False</x:ProtectScenarios>
+     </x:WorksheetOptions>
+       </x:ExcelWorksheet>
+      </x:ExcelWorksheets>
+      
+      <x:WindowHeight>10005</x:WindowHeight>
+      <x:WindowWidth>10005</x:WindowWidth>
+      <x:WindowTopX>120</x:WindowTopX>
+      <x:WindowTopY>135</x:WindowTopY>
+      <x:ProtectStructure>False</x:ProtectStructure>
+      <x:ProtectWindows>False</x:ProtectWindows>
+     </x:ExcelWorkbook>
+    </xml><![endif]-->
+    </head>
+    <body link=blue vlink=purple>
+    <table x:str border=0 cellpadding=0 cellspacing=0 style='border-collapse: collapse;table-layout:fixed;'><tr><td class=xl24 width=64 x:num>名称</td><td class=xl24 width=64 x:num>有效期（开始）</td><td class=xl24 width=64 x:num>有效期（结束）</td><td class=xl24 width=64 x:num>发布范围（部门）</td><td class=xl24 width=64 x:num>参与人</td><td class=xl24 width=64 x:num>负责人</td><td class=xl24 width=64 x:num>备注</td><td class=xl24 width=64 x:num>完成时间</td><td class=xl24 width=64 x:num>发布人</td><td class=xl24 width=64 x:num>类型</td><td class=xl24 width=64 x:num>内容</td></tr><tr><td class=xl24 width=64 x:num>周工作计划</td><td class=xl24 width=64 x:num>2014.09.20 21:10:00</td><td class=xl24 width=64 x:num>2014.09.26 21:10:00</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>张谷</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>2014.09.20 21:22:14</td><td class=xl24 width=64 x:num>何智彬</td><td class=xl24 width=64 x:num>个人</td><td class=xl24 width=64 x:num><table style="width:100%;" cellpadding="2" cellspacing="0" border="1" bordercolor="#000000"><tbody><tr><td>&nbsp;星期</td>
+<td>&nbsp;内容 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
+<td>&nbsp;随同人员</td>
+</tr>
+<tr><td>&nbsp;周一</td>
+<td>&nbsp;局务会；办文。</td>
+<td>&nbsp;</td>
+</tr>
+<tr><td>&nbsp;周二</td>
+<td>&nbsp;参加猴子岩电站移民安置点选择评审会。</td>
+<td>&nbsp;李庆友等</td>
+</tr>
+<tr><td>&nbsp;周三</td>
+<td>&nbsp;向家坝、溪洛渡库区移民安置工作督查。</td>
+<td>&nbsp;蒋光文等</td>
+</tr>
+<tr><td>&nbsp;周四</td>
+<td>&nbsp;同上</td>
+<td>&nbsp;</td>
+</tr>
+<tr><td>&nbsp;周五</td>
+<td>&nbsp;移民开发中心国资收回领导小组会议。</td>
+<td>&nbsp;邹局、</td>
+</tr>
+<tr><td>&nbsp;周六</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr><td>&nbsp;周日</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table></td></tr><tr><td class=xl24 width=64 x:num>周工作计划</td><td class=xl24 width=64 x:num>2014.09.12 17:12:00</td><td class=xl24 width=64 x:num>2014.09.12 17:12:00</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>张谷</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>2014.09.12 17:26:53</td><td class=xl24 width=64 x:num>何智彬</td><td class=xl24 width=64 x:num>个人</td><td class=xl24 width=64 x:num><table style="width:100%;" border="1" cellspacing="0" bordercolor="#000000" cellpadding="2">
+<tbody>
+<tr>
+<td>&nbsp;星期</td>
+<td>&nbsp;内容 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
+<td>&nbsp;随同人员</td>
+</tr>
+<tr>
+<td>&nbsp;周一</td>
+<td>局务会；办文</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;周二</td>
+<td>&nbsp;溪洛渡设监评费用调整协调会。</td>
+<td>&nbsp;蒋光文、朱蓉等</td>
+</tr>
+<tr>
+<td>&nbsp;周三</td>
+<td>&nbsp;局长专题会审改十个办法及规范</td>
+<td>&nbsp;张局长等局处负责人</td>
+</tr>
+<tr>
+<td>&nbsp;周四</td>
+<td>&nbsp;接待山东移民考察组</td>
+<td>&nbsp;李庆友、陈彦等</td>
+</tr>
+<tr>
+<td>&nbsp;周五</td>
+<td>&nbsp;待安排</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;周六</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;周日</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table></td></tr><tr><td class=xl24 width=64 x:num>周工作计划</td><td class=xl24 width=64 x:num>2014.09.09 15:52:00</td><td class=xl24 width=64 x:num>2014.09.12 15:52:00</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>张谷</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>何智彬</td><td class=xl24 width=64 x:num>个人</td><td class=xl24 width=64 x:num><table style="width:100%;" border="1" cellspacing="0" bordercolor="#000000" cellpadding="2">
+<tbody>
+<tr>
+<td>&nbsp;星期</td>
+<td>&nbsp;内容 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
+<td>&nbsp;随同人员</td>
+</tr>
+<tr>
+<td>&nbsp;周一</td>
+<td>&nbsp;放假</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;周二</td>
+<td>局务会</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;周三</td>
+<td>&nbsp;&nbsp;讨论审查咨询服务管理办法及协议</td>
+<td>&nbsp;安置处相关人员</td>
+</tr>
+<tr>
+<td>&nbsp;周四</td>
+<td>&nbsp;局长专题会（审查10个管理办法及规范）</td>
+<td>&nbsp;请张局长、向局长、都总及相关业务处室负责人参加</td>
+</tr>
+<tr>
+<td>&nbsp;周五</td>
+<td>局长专题会续；参加大岗山项目变更审查会&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;周六</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;周日</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table></td></tr>

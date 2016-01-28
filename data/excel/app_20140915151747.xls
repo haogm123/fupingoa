@@ -1,0 +1,103 @@
+    <html xmlns:o="urn:schemas-microsoft-com:office:office"
+    xmlns:x="urn:schemas-microsoft-com:office:excel"
+    xmlns="http://www.w3.org/TR/html4/loose.dtd">
+    <head>
+    <meta http-equiv=Content-Type content="text/html; charset=utf-8">
+    <meta name=ProgId content=Excel.Sheet>
+    <!--[if gte mso 9]><xml>
+     <o:DocumentProperties>
+      <o:LastAuthor>Rising</o:LastAuthor>
+      <o:LastSaved>2005-01-02T07:46:23Z</o:LastSaved>
+      <o:Version>10.2625</o:Version>
+     </o:DocumentProperties>
+     <o:OfficeDocumentSettings>
+      <o:DownloadComponents/>
+     </o:OfficeDocumentSettings>
+    </xml><![endif]-->
+    <style>
+    <!--table
+     {mso-displayed-decimal-separator:"\.";
+     mso-displayed-thousand-separator:"\,";}
+    @page
+     {margin:1.0in .75in 1.0in .75in;
+     mso-header-margin:.5in;
+     mso-footer-margin:.5in;}
+    tr
+     {mso-height-source:auto;}
+    col
+     {mso-width-source:auto;}
+    br
+     {mso-data-placement:same-cell;}
+    .style0
+     {mso-number-format:General;
+     text-align:general;
+     vertical-align:bottom;
+     white-space:nowrap;
+     mso-rotate:0;
+     mso-background-source:auto;
+     mso-pattern:auto;
+     color:windowtext;
+     font-size:10.0pt;
+     font-weight:400;
+     font-style:normal;
+     text-decoration:none;
+     font-family:Arial;
+     mso-generic-font-family:auto;
+     mso-font-charset:0;
+     border:none;
+     mso-protection:locked visible;
+     mso-style-name:Normal;
+     mso-style-id:0;}
+    td
+     {mso-style-parent:style0;
+     padding-top:1px;
+     padding-right:1px;
+     padding-left:1px;
+     mso-ignore:padding;
+     color:windowtext;
+     font-size:10.0pt;
+     font-weight:400;
+     font-style:normal;
+     text-decoration:none;
+     font-family:Arial;
+     mso-generic-font-family:auto;
+     mso-font-charset:0;
+     mso-number-format:General;
+     text-align:general;
+     vertical-align:bottom;
+     border:none;
+     mso-background-source:auto;
+     mso-pattern:auto;
+     mso-protection:locked visible;
+     white-space:nowrap;
+     mso-rotate:0;}
+    .xl24
+     {mso-style-parent:style0;
+     white-space:normal;}
+    -->
+    </style>
+    <!--[if gte mso 9]><xml>
+     <x:ExcelWorkbook>
+      <x:ExcelWorksheets>
+       <x:ExcelWorksheet>
+     <x:Name>Sheet1</x:Name>
+     <x:WorksheetOptions>
+      <x:Selected/>
+      <x:ProtectContents>False</x:ProtectContents>
+      <x:ProtectObjects>False</x:ProtectObjects>
+      <x:ProtectScenarios>False</x:ProtectScenarios>
+     </x:WorksheetOptions>
+       </x:ExcelWorksheet>
+      </x:ExcelWorksheets>
+      
+      <x:WindowHeight>10005</x:WindowHeight>
+      <x:WindowWidth>10005</x:WindowWidth>
+      <x:WindowTopX>120</x:WindowTopX>
+      <x:WindowTopY>135</x:WindowTopY>
+      <x:ProtectStructure>False</x:ProtectStructure>
+      <x:ProtectWindows>False</x:ProtectWindows>
+     </x:ExcelWorkbook>
+    </xml><![endif]-->
+    </head>
+    <body link=blue vlink=purple>
+    <table x:str border=0 cellpadding=0 cellspacing=0 style='border-collapse: collapse;table-layout:fixed;'><tr><td class=xl24 width=64 x:num>来文编号</td><td class=xl24 width=64 x:num>份数</td><td class=xl24 width=64 x:num>来文机关</td><td class=xl24 width=64 x:num>来文字号</td><td class=xl24 width=64 x:num>来文标题</td><td class=xl24 width=64 x:num>承办结果</td><td class=xl24 width=64 x:num>签收人</td><td class=xl24 width=64 x:num>收文日期</td></tr><tr><td class=xl24 width=64 x:num>20140821094126</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>中共四川省纪委</td><td class=xl24 width=64 x:num>川纪发[2014]12号</td><td class=xl24 width=64 x:num>关于认真学习贯彻川委发[2014]13号、14号文件精神的通知</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>蒋蓉</td><td class=xl24 width=64 x:num>2014.08.21</td></tr><tr><td class=xl24 width=64 x:num>20140819164911</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>省高标准农田建设工作联席会议办公室</td><td class=xl24 width=64 x:num>无</td><td class=xl24 width=64 x:num>关于报送四川省高标准农田建设工作联席会议成员单位领导及联络员名单的函（8.28日前报送名单）</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>蒋蓉</td><td class=xl24 width=64 x:num>2014.08.19</td></tr><tr><td class=xl24 width=64 x:num>20140819170757</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>省高标准农田建设工作联席会议办公室</td><td class=xl24 width=64 x:num>川高标农田联办【2014】1号</td><td class=xl24 width=64 x:num>关于开展2013年度高标准农田建设考核评价工作的通知（考评工作于2014年8月30日前完成）</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>蒋蓉</td><td class=xl24 width=64 x:num>2014.08.19</td></tr><tr><td class=xl24 width=64 x:num>20140814103717</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>省县域经济协会</td><td class=xl24 width=64 x:num>川县经会【2014】56号</td><td class=xl24 width=64 x:num>魏宏同志、钟勉同志、史哈同志在《加快民族地区县域经济发展政策建议》和《民族地区县域经济调查与研究》上的批示</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>蒋蓉</td><td class=xl24 width=64 x:num>2014.08.14</td></tr><tr><td class=xl24 width=64 x:num>20140815153938</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>凉山州财政局、凉山州扶贫开发和两项资金管理办公室</td><td class=xl24 width=64 x:num>凉财农【2014】89号</td><td class=xl24 width=64 x:num>关于下达2014年财政专项扶贫资金（大小凉山彝区“十项扶贫工程”建设资金）的通知</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>蒋蓉</td><td class=xl24 width=64 x:num>2014.08.15</td></tr><tr><td class=xl24 width=64 x:num>20140815175608</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>省政府督查室</td><td class=xl24 width=64 x:num>无</td><td class=xl24 width=64 x:num>办文通知：《国务院办公厅关于对国务院政策措施落实中存在问题进行整改的通知》B[2014]2232（第19项我局为牵头单位，8月18日10:30前报送材料）</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>蒋蓉</td><td class=xl24 width=64 x:num>2014.08.15</td></tr><tr><td class=xl24 width=64 x:num>20140814110832</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>四川省人民政府办公厅</td><td class=xl24 width=64 x:num>川办发[2014]74号</td><td class=xl24 width=64 x:num>关于建立扶贫项目审批权下放到县实行责任、权力、资金、任务“四到县”制度的意见</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>蒋蓉</td><td class=xl24 width=64 x:num>2014.08.14</td></tr><tr><td class=xl24 width=64 x:num>20140815161428</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>省政府办公厅秘书处</td><td class=xl24 width=64 x:num>无</td><td class=xl24 width=64 x:num>全国政协近期赴我省考察调研“少数民族地区群众生产生活情况”（8.19日下午6:00前报送材料）</td><td class=xl24 width=64 x:num></td><td class=xl24 width=64 x:num>蒋蓉</td><td class=xl24 width=64 x:num>2014.08.15</td></tr>

@@ -1,0 +1,25 @@
+create table toa_aofc_type(
+
+ID int not null auto_increment,
+
+title varchar(50),
+
+key_user_read text,
+
+pwd_read varchar(20),
+
+key_user_write text,
+
+pwd_write varchar(20),
+
+filecount int,
+primary key (id)
+
+)
+
+	//行政公文柜
+if($name=="查询文件"){return 1;}
+if($name=="上传文件"){return 1;}
+if($name=="分类管理"){return 1;}
+if($name=="公文柜总览"){return 1;}
+if($name=="高级文件搜索"){return 1;}

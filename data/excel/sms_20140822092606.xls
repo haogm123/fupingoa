@@ -1,0 +1,104 @@
+    <html xmlns:o="urn:schemas-microsoft-com:office:office"
+    xmlns:x="urn:schemas-microsoft-com:office:excel"
+    xmlns="http://www.w3.org/TR/html4/loose.dtd">
+    <head>
+    <meta http-equiv=Content-Type content="text/html; charset=utf-8">
+    <meta name=ProgId content=Excel.Sheet>
+    <!--[if gte mso 9]><xml>
+     <o:DocumentProperties>
+      <o:LastAuthor>Rising</o:LastAuthor>
+      <o:LastSaved>2005-01-02T07:46:23Z</o:LastSaved>
+      <o:Version>10.2625</o:Version>
+     </o:DocumentProperties>
+     <o:OfficeDocumentSettings>
+      <o:DownloadComponents/>
+     </o:OfficeDocumentSettings>
+    </xml><![endif]-->
+    <style>
+    <!--table
+     {mso-displayed-decimal-separator:"\.";
+     mso-displayed-thousand-separator:"\,";}
+    @page
+     {margin:1.0in .75in 1.0in .75in;
+     mso-header-margin:.5in;
+     mso-footer-margin:.5in;}
+    tr
+     {mso-height-source:auto;}
+    col
+     {mso-width-source:auto;}
+    br
+     {mso-data-placement:same-cell;}
+    .style0
+     {mso-number-format:General;
+     text-align:general;
+     vertical-align:bottom;
+     white-space:nowrap;
+     mso-rotate:0;
+     mso-background-source:auto;
+     mso-pattern:auto;
+     color:windowtext;
+     font-size:10.0pt;
+     font-weight:400;
+     font-style:normal;
+     text-decoration:none;
+     font-family:Arial;
+     mso-generic-font-family:auto;
+     mso-font-charset:0;
+     border:none;
+     mso-protection:locked visible;
+     mso-style-name:Normal;
+     mso-style-id:0;}
+    td
+     {mso-style-parent:style0;
+     padding-top:1px;
+     padding-right:1px;
+     padding-left:1px;
+     mso-ignore:padding;
+     color:windowtext;
+     font-size:10.0pt;
+     font-weight:400;
+     font-style:normal;
+     text-decoration:none;
+     font-family:Arial;
+     mso-generic-font-family:auto;
+     mso-font-charset:0;
+     mso-number-format:General;
+     text-align:general;
+     vertical-align:bottom;
+     border:none;
+     mso-background-source:auto;
+     mso-pattern:auto;
+     mso-protection:locked visible;
+     white-space:nowrap;
+     mso-rotate:0;}
+    .xl24
+     {mso-style-parent:style0;
+     white-space:normal;}
+    -->
+    </style>
+    <!--[if gte mso 9]><xml>
+     <x:ExcelWorkbook>
+      <x:ExcelWorksheets>
+       <x:ExcelWorksheet>
+     <x:Name>Sheet1</x:Name>
+     <x:WorksheetOptions>
+      <x:Selected/>
+      <x:ProtectContents>False</x:ProtectContents>
+      <x:ProtectObjects>False</x:ProtectObjects>
+      <x:ProtectScenarios>False</x:ProtectScenarios>
+     </x:WorksheetOptions>
+       </x:ExcelWorksheet>
+      </x:ExcelWorksheets>
+      
+      <x:WindowHeight>10005</x:WindowHeight>
+      <x:WindowWidth>10005</x:WindowWidth>
+      <x:WindowTopX>120</x:WindowTopX>
+      <x:WindowTopY>135</x:WindowTopY>
+      <x:ProtectStructure>False</x:ProtectStructure>
+      <x:ProtectWindows>False</x:ProtectWindows>
+     </x:ExcelWorkbook>
+    </xml><![endif]-->
+    </head>
+    <body link=blue vlink=purple>
+    <table x:str border=0 cellpadding=0 cellspacing=0 style='border-collapse: collapse;table-layout:fixed;'><tr><td class=xl24 width=64 x:num>状态</td><td class=xl24 width=64 x:num>发送人</td><td class=xl24 width=64 x:num>发送时间</td><td class=xl24 width=64 x:num>内容</td></tr><tr><td class=xl24 width=64 x:num>未读</td><td class=xl24 width=64 x:num>李华聪</td><td class=xl24 width=64 x:num>2014.08.21 09:43:10</td><td class=xl24 width=64 x:num>您有一个公文需要审批，请进入公文待办进行审批!</td></tr><tr><td class=xl24 width=64 x:num>己读</td><td class=xl24 width=64 x:num>李华聪</td><td class=xl24 width=64 x:num>2014.08.21 09:41:46</td><td class=xl24 width=64 x:num>您有一个公文需要审批，请进入公文待办进行审批!</td></tr><tr><td class=xl24 width=64 x:num>己读</td><td class=xl24 width=64 x:num>蒋蓉</td><td class=xl24 width=64 x:num>2014.08.21 09:00:24</td><td class=xl24 width=64 x:num>您有一个公文需要审批，请进入公文待办进行审批!</td></tr><tr><td class=xl24 width=64 x:num>己读</td><td class=xl24 width=64 x:num>蒋蓉</td><td class=xl24 width=64 x:num>2014.08.21 08:59:49</td><td class=xl24 width=64 x:num>您有一个公文需要审批，请进入公文待办进行审批!</td></tr><tr><td class=xl24 width=64 x:num>己读</td><td class=xl24 width=64 x:num>李宇</td><td class=xl24 width=64 x:num>2014.08.20 17:40:53</td><td class=xl24 width=64 x:num>2014年第13次党组会需落实事项，请查收！
+李宇<a href="data/uploadfile/89/20140820/20140820094043.doc" target="_blank">附件下载</a></td></tr><tr><td class=xl24 width=64 x:num>己读</td><td class=xl24 width=64 x:num>王柯</td><td class=xl24 width=64 x:num>2014.08.20 10:38:53</td><td class=xl24 width=64 x:num>传来一个公文需要审批，请进入公文待办进行审批!</td></tr><tr><td class=xl24 width=64 x:num>己读</td><td class=xl24 width=64 x:num>雷蕾</td><td class=xl24 width=64 x:num>2014.08.19 15:41:53</td><td class=xl24 width=64 x:num>您有一条新的通知需要阅读,请点击查看!<a href="admin.php?ac=news&fileurl=administrative&do=views&id=89&type=4">点击阅读>></a></td></tr><tr><td class=xl24 width=64 x:num>己读</td><td class=xl24 width=64 x:num>蒋蓉</td><td class=xl24 width=64 x:num>2014.08.19 09:33:21</td><td class=xl24 width=64 x:num>您有一个公文需要审批，请进入公文待办进行审批!</td></tr><tr><td class=xl24 width=64 x:num>己读</td><td class=xl24 width=64 x:num>蒋蓉</td><td class=xl24 width=64 x:num>2014.08.19 09:32:41</td><td class=xl24 width=64 x:num>您有一个公文需要审批，请进入公文待办进行审批!</td></tr><tr><td class=xl24 width=64 x:num>己读</td><td class=xl24 width=64 x:num>蒋蓉</td><td class=xl24 width=64 x:num>2014.08.18 17:47:22</td><td class=xl24 width=64 x:num>您有一个公文需要审批，请进入公文待办进行审批!</td></tr><tr><td class=xl24 width=64 x:num>己读</td><td class=xl24 width=64 x:num>蒋蓉</td><td class=xl24 width=64 x:num>2014.08.18 17:46:04</td><td class=xl24 width=64 x:num>您有一个公文需要审批，请进入公文待办进行审批!</td></tr><tr><td class=xl24 width=64 x:num>己读</td><td class=xl24 width=64 x:num>蒋蓉</td><td class=xl24 width=64 x:num>2014.08.18 17:40:53</td><td class=xl24 width=64 x:num>您有一个公文需要审批，请进入公文待办进行审批!</td></tr><tr><td class=xl24 width=64 x:num>己读</td><td class=xl24 width=64 x:num>朱建凌</td><td class=xl24 width=64 x:num>2014.08.18 09:07:34</td><td class=xl24 width=64 x:num>您有一条新的公告需要阅读,请点击查看!<a href="admin.php?ac=news&fileurl=administrative&do=views&id=83&type=3">点击阅读>></a></td></tr><tr><td class=xl24 width=64 x:num>己读</td><td class=xl24 width=64 x:num>朱建凌</td><td class=xl24 width=64 x:num>2014.08.15 12:52:34</td><td class=xl24 width=64 x:num>您有一条新的公告需要阅读,请点击查看!<a href="admin.php?ac=news&fileurl=administrative&do=views&id=82&type=3">点击阅读>></a></td></tr><tr><td class=xl24 width=64 x:num>己读</td><td class=xl24 width=64 x:num>朱建凌</td><td class=xl24 width=64 x:num>2014.08.14 16:10:46</td><td class=xl24 width=64 x:num>您有一条新的通知需要阅读,请点击查看!<a href="admin.php?ac=news&fileurl=administrative&do=views&id=80&type=4">点击阅读>></a></td></tr><tr><td class=xl24 width=64 x:num>己读</td><td class=xl24 width=64 x:num>朱建凌</td><td class=xl24 width=64 x:num>2014.08.14 16:03:05</td><td class=xl24 width=64 x:num>您有一条新的公告需要阅读,请点击查看!<a href="admin.php?ac=news&fileurl=administrative&do=views&id=79&type=3">点击阅读>></a></td></tr><tr><td class=xl24 width=64 x:num>己读</td><td class=xl24 width=64 x:num>刘蔚</td><td class=xl24 width=64 x:num>2014.08.14 15:20:59</td><td class=xl24 width=64 x:num>您有一个公文需要审批，请进入公文待办进行审批!</td></tr>

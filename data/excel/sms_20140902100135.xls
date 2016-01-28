@@ -1,0 +1,103 @@
+    <html xmlns:o="urn:schemas-microsoft-com:office:office"
+    xmlns:x="urn:schemas-microsoft-com:office:excel"
+    xmlns="http://www.w3.org/TR/html4/loose.dtd">
+    <head>
+    <meta http-equiv=Content-Type content="text/html; charset=utf-8">
+    <meta name=ProgId content=Excel.Sheet>
+    <!--[if gte mso 9]><xml>
+     <o:DocumentProperties>
+      <o:LastAuthor>Rising</o:LastAuthor>
+      <o:LastSaved>2005-01-02T07:46:23Z</o:LastSaved>
+      <o:Version>10.2625</o:Version>
+     </o:DocumentProperties>
+     <o:OfficeDocumentSettings>
+      <o:DownloadComponents/>
+     </o:OfficeDocumentSettings>
+    </xml><![endif]-->
+    <style>
+    <!--table
+     {mso-displayed-decimal-separator:"\.";
+     mso-displayed-thousand-separator:"\,";}
+    @page
+     {margin:1.0in .75in 1.0in .75in;
+     mso-header-margin:.5in;
+     mso-footer-margin:.5in;}
+    tr
+     {mso-height-source:auto;}
+    col
+     {mso-width-source:auto;}
+    br
+     {mso-data-placement:same-cell;}
+    .style0
+     {mso-number-format:General;
+     text-align:general;
+     vertical-align:bottom;
+     white-space:nowrap;
+     mso-rotate:0;
+     mso-background-source:auto;
+     mso-pattern:auto;
+     color:windowtext;
+     font-size:10.0pt;
+     font-weight:400;
+     font-style:normal;
+     text-decoration:none;
+     font-family:Arial;
+     mso-generic-font-family:auto;
+     mso-font-charset:0;
+     border:none;
+     mso-protection:locked visible;
+     mso-style-name:Normal;
+     mso-style-id:0;}
+    td
+     {mso-style-parent:style0;
+     padding-top:1px;
+     padding-right:1px;
+     padding-left:1px;
+     mso-ignore:padding;
+     color:windowtext;
+     font-size:10.0pt;
+     font-weight:400;
+     font-style:normal;
+     text-decoration:none;
+     font-family:Arial;
+     mso-generic-font-family:auto;
+     mso-font-charset:0;
+     mso-number-format:General;
+     text-align:general;
+     vertical-align:bottom;
+     border:none;
+     mso-background-source:auto;
+     mso-pattern:auto;
+     mso-protection:locked visible;
+     white-space:nowrap;
+     mso-rotate:0;}
+    .xl24
+     {mso-style-parent:style0;
+     white-space:normal;}
+    -->
+    </style>
+    <!--[if gte mso 9]><xml>
+     <x:ExcelWorkbook>
+      <x:ExcelWorksheets>
+       <x:ExcelWorksheet>
+     <x:Name>Sheet1</x:Name>
+     <x:WorksheetOptions>
+      <x:Selected/>
+      <x:ProtectContents>False</x:ProtectContents>
+      <x:ProtectObjects>False</x:ProtectObjects>
+      <x:ProtectScenarios>False</x:ProtectScenarios>
+     </x:WorksheetOptions>
+       </x:ExcelWorksheet>
+      </x:ExcelWorksheets>
+      
+      <x:WindowHeight>10005</x:WindowHeight>
+      <x:WindowWidth>10005</x:WindowWidth>
+      <x:WindowTopX>120</x:WindowTopX>
+      <x:WindowTopY>135</x:WindowTopY>
+      <x:ProtectStructure>False</x:ProtectStructure>
+      <x:ProtectWindows>False</x:ProtectWindows>
+     </x:ExcelWorkbook>
+    </xml><![endif]-->
+    </head>
+    <body link=blue vlink=purple>
+    <table x:str border=0 cellpadding=0 cellspacing=0 style='border-collapse: collapse;table-layout:fixed;'><tr><td class=xl24 width=64 x:num>状态</td><td class=xl24 width=64 x:num>发送人</td><td class=xl24 width=64 x:num>发送时间</td><td class=xl24 width=64 x:num>内容</td></tr><tr><td class=xl24 width=64 x:num>未读</td><td class=xl24 width=64 x:num>王柯</td><td class=xl24 width=64 x:num>2014.09.01 10:14:34</td><td class=xl24 width=64 x:num>张谷,刘兵,邹积立,何智彬,向伟益,刘维嘉,张华林,杨晖,都勤,廖蔚,郭全喜,张海鹏,汪社林,张学勤,韩峰,周美川,冯登亮,杨文坚,甘健,李洁,高明,贺云,曾文兵,蔡广兵,罗丽娟,冷雪丽,吴朗,测试,科员,处长,副处长,黄爽,白楠,机要室,唐义,张兵,罗薇,吴勇,杨萍,侯军,李征宇,董乾生,杨铧,陈彦,黄宇,薛兵,罗厚国,沈巍,王晓华,王远来,高潭,张琪,朱蓉,卢强,刘明忠,杨建红,王丹,苟会琼,潘晔,廖强,王玉华,李灵英,黄河,包文,杨黎,李承周,王柯,吴守清,刘燕,李立峰,牟敏,雷勇,李智,王蓉,范思明,师进云,李华聪,王强,蒲应军,冯典林,刘登安,王晓梅,蒋蓉,袁刚,王正洪,李抒玲,杨丽,覃佳,罗宇,汪明辉,刘昱,施春华,李庆友,蒋光文,刘伯庆,何成俊,刘莉,侯毅,李重庆,左绪海,余琳,张潇元,阳伟明,韦俊红,李剑波,彭静耘,王刚,张云梅,姚立,兰素华,黄代利,曾磊,朱敏,赵燕玲,雷蕾,曾维忠,蒲熹漫,李宇,林勇,陈宝敬,王政洲,杨邦华,韩敏,王胜,刘晓春,朱建凌,王思铁,向兴华,冯克努,王红虹,刘小林,代琦,张建国,郑持平,李欣,许鉴,康玲,罗庆,张凤英,江志伟,魏永志,青成,罗斯华,胥谊,王俊赛,王晓蓉,张晓东,敬松,李莉红,张蔚,姜琼,彭海,屈鹏,杨其林,王利,李廷亮,金洲,刘譓,王凤姣,贾寅,尹春辉,王鹏,李玫玫,王红跃,杨建成,李  峰,林晓燕,耿福元,姚发俊,唐正州,刘  宇,吴柏林,余丰君,冯玲,周姗姗,马永杰,钱  锟,曹  亮,樊  涛,王  婷,李开远,李  萌,张庆敏,张德华,曾小琴,王子强,刘喜艳,钟路,刘舒铫,蔡亚军,吴红艳,朱倩,杨皓,刘蔚,张钦城,广元市扶贫移民局:您有一个文件需要阅读,名称为：扶贫开发领导小组成员单位（2013）;请进行查看!<a href="admin.php?ac=views&fileurl=knowledge&do=edit&id=64&type=2">点击查看>></a></td></tr><tr><td class=xl24 width=64 x:num>未读</td><td class=xl24 width=64 x:num>曾小琴</td><td class=xl24 width=64 x:num>2014.08.22 16:08:26</td><td class=xl24 width=64 x:num>您有一个公文需要审批，请进入公文待办进行审批!</td></tr><tr><td class=xl24 width=64 x:num>未读</td><td class=xl24 width=64 x:num>李承周</td><td class=xl24 width=64 x:num>2014.08.22 14:25:19</td><td class=xl24 width=64 x:num>您有一条新的通知需要阅读,请点击查看!<a href="admin.php?ac=news&fileurl=administrative&do=views&id=92&type=4">点击阅读>></a></td></tr><tr><td class=xl24 width=64 x:num>未读</td><td class=xl24 width=64 x:num>罗薇</td><td class=xl24 width=64 x:num>2014.08.13 15:52:27</td><td class=xl24 width=64 x:num>您有一条新的通知需要阅读,请点击查看!<a href="admin.php?ac=news&fileurl=administrative&do=views&id=77&type=4">点击阅读>></a></td></tr><tr><td class=xl24 width=64 x:num>未读</td><td class=xl24 width=64 x:num>贺云</td><td class=xl24 width=64 x:num>2014.08.06 18:33:11</td><td class=xl24 width=64 x:num>您有一条新的通知需要阅读,请点击查看!<a href="admin.php?ac=news&fileurl=administrative&do=views&id=66&type=4">点击阅读>></a></td></tr><tr><td class=xl24 width=64 x:num>未读</td><td class=xl24 width=64 x:num>朱建凌</td><td class=xl24 width=64 x:num>2014.08.04 17:03:46</td><td class=xl24 width=64 x:num>您有一条新的通知需要阅读,请点击查看!<a href="admin.php?ac=news&fileurl=administrative&do=views&id=63&type=4">点击阅读>></a></td></tr><tr><td class=xl24 width=64 x:num>未读</td><td class=xl24 width=64 x:num>蒲熹漫</td><td class=xl24 width=64 x:num>2014.08.01 12:03:14</td><td class=xl24 width=64 x:num>您有一条新的公告需要阅读,请点击查看!<a href="admin.php?ac=news&fileurl=administrative&do=views&id=62&type=3">点击阅读>></a></td></tr><tr><td class=xl24 width=64 x:num>未读</td><td class=xl24 width=64 x:num>杨萍</td><td class=xl24 width=64 x:num>2014.07.25 15:52:40</td><td class=xl24 width=64 x:num>您有一条新的通知需要阅读,请点击查看!<a href="admin.php?ac=news&fileurl=administrative&do=views&id=54&type=4">点击阅读>></a></td></tr><tr><td class=xl24 width=64 x:num>未读</td><td class=xl24 width=64 x:num>董乾生</td><td class=xl24 width=64 x:num>2014.07.22 08:59:28</td><td class=xl24 width=64 x:num>您有一条新的通知需要阅读,请点击查看!<a href="admin.php?ac=news&fileurl=administrative&do=views&id=36&type=4">点击阅读>></a></td></tr><tr><td class=xl24 width=64 x:num>未读</td><td class=xl24 width=64 x:num>王柯</td><td class=xl24 width=64 x:num>2014.07.16 18:07:21</td><td class=xl24 width=64 x:num>张谷,刘兵,邹积立,何智彬,向伟益,刘维嘉,张华林,杨晖,都勤,廖蔚,何大清,郭全喜,张海鹏,汪社林,韩峰,周美川,冯登亮,杨文坚,甘健,李洁,高明,贺云,曾文兵,蔡广兵,罗丽娟,冷雪丽,吴朗,测试,科员,处长,副处长,黄爽,白楠,唐义,张兵,罗薇,吴勇,杨萍,侯军,李征宇,董乾生,杨铧,陈彦,黄宇,薛兵,罗厚国,沈巍,王晓华,王远来,高潭,张琪,朱蓉,卢强,刘明忠,杨建红,王丹,苟会琼,潘晔,李灵英,黄河,包文,杨黎,李承周,王柯,吴守清,刘燕,李立峰,牟敏,李智,王蓉,范思明,师进云,李华聪,王强,蒲应军,冯典林,刘登安,王晓梅,蒋蓉,袁刚,王正洪,李抒玲,杨丽,覃佳,罗宇,汪明辉,刘昱,李庆友,蒋光文,刘伯庆,何成俊,刘莉,侯毅,李重庆,左绪海,余琳,张潇元,阳伟明,韦俊红,李剑波,彭静耘,王刚,张云梅,姚立,兰素华,黄代利,曾磊,朱敏,赵燕玲,雷蕾,曾维忠,蒲熹漫,李宇,林勇,陈宝敬,王政洲,杨邦华,韩敏,王胜,刘晓春,朱建凌,王思铁,向兴华,冯克努,王红虹,刘小林,代琦,张建国,郑持平,李欣,许鉴,康玲,罗庆,张凤英,江志伟,魏永志,青成,罗斯华,胥谊,王俊赛,王晓蓉,张晓东,敬松,李莉红,张蔚,姜琼,彭海,屈鹏,杨其林,王利,李廷亮,金洲,刘譓,王凤姣,贾寅,尹春辉,王鹏,李玫玫,王红跃,杨建成,李  峰,林晓燕,耿福元,姚发俊,唐正州,刘  宇,吴柏林,余丰君,冯玲,周姗姗,马永杰,钱  锟,曹  亮,樊  涛,王  婷,李开远,李  萌,张庆敏,张德华,曾小琴,王子强,刘喜艳,钟路,刘舒铫,蔡亚军,吴红艳,朱倩,杨皓,刘蔚,张钦城,广元市扶贫移民局,凉山扶贫办,凉山移民办,绵阳扶移局,成都扶贫办,成都移民办,内江扶移局,南充扶移局,乐山扶移局,自贡扶移局,泸州扶贫办,泸州移民办,德阳扶移局,广元扶移局,遂宁扶移局,眉山扶移局,宜宾扶移局,广安扶移局,达州扶移局,雅安扶移局,巴中扶移局,资阳扶移局,攀枝花扶移局,甘孜扶移局,阿坝扶移局,泸州扶移局:您有一个文件需要阅读,名称为：简报14期 乐山市“六抓六解决”稳步推进建档立卡工作;请进行查看!<a href="admin.php?ac=views&fileurl=knowledge&do=edit&id=49&type=2">点击查看>></a></td></tr><tr><td class=xl24 width=64 x:num>未读</td><td class=xl24 width=64 x:num>王柯</td><td class=xl24 width=64 x:num>2014.07.16 18:04:54</td><td class=xl24 width=64 x:num>张谷,刘兵,邹积立,何智彬,向伟益,刘维嘉,张华林,杨晖,都勤,廖蔚,何大清,郭全喜,张海鹏,汪社林,韩峰,周美川,冯登亮,杨文坚,甘健,李洁,高明,贺云,曾文兵,蔡广兵,罗丽娟,冷雪丽,吴朗,测试,科员,处长,副处长,黄爽,白楠,唐义,张兵,罗薇,吴勇,杨萍,侯军,李征宇,董乾生,杨铧,陈彦,黄宇,薛兵,罗厚国,沈巍,王晓华,王远来,高潭,张琪,朱蓉,卢强,刘明忠,杨建红,王丹,苟会琼,潘晔,李灵英,黄河,包文,杨黎,李承周,王柯,吴守清,刘燕,李立峰,牟敏,李智,王蓉,范思明,师进云,李华聪,王强,蒲应军,冯典林,刘登安,王晓梅,蒋蓉,袁刚,王正洪,李抒玲,杨丽,覃佳,罗宇,汪明辉,刘昱,李庆友,蒋光文,刘伯庆,何成俊,刘莉,侯毅,李重庆,左绪海,余琳,张潇元,阳伟明,韦俊红,李剑波,彭静耘,王刚,张云梅,姚立,兰素华,黄代利,曾磊,朱敏,赵燕玲,雷蕾,曾维忠,蒲熹漫,李宇,林勇,陈宝敬,王政洲,杨邦华,韩敏,王胜,刘晓春,朱建凌,王思铁,向兴华,冯克努,王红虹,刘小林,代琦,张建国,郑持平,李欣,许鉴,康玲,罗庆,张凤英,江志伟,魏永志,青成,罗斯华,胥谊,王俊赛,王晓蓉,张晓东,敬松,李莉红,张蔚,姜琼,彭海,屈鹏,杨其林,王利,李廷亮,金洲,刘譓,王凤姣,贾寅,尹春辉,王鹏,李玫玫,王红跃,杨建成,李  峰,林晓燕,耿福元,姚发俊,唐正州,刘  宇,吴柏林,余丰君,冯玲,周姗姗,马永杰,钱  锟,曹  亮,樊  涛,王  婷,李开远,李  萌,张庆敏,张德华,曾小琴,王子强,刘喜艳,钟路,刘舒铫,蔡亚军,吴红艳,朱倩,杨皓,刘蔚,张钦城,广元市扶贫移民局,凉山扶贫办,凉山移民办,绵阳扶移局,成都扶贫办,成都移民办,内江扶移局,南充扶移局,乐山扶移局,自贡扶移局,泸州扶贫办,泸州移民办,德阳扶移局,广元扶移局,遂宁扶移局,眉山扶移局,宜宾扶移局,广安扶移局,达州扶移局,雅安扶移局,巴中扶移局,资阳扶移局,攀枝花扶移局,甘孜扶移局,阿坝扶移局,泸州扶移局:您有一个文件需要阅读,名称为：简报13期 广安市通过七举措建立精准扶贫机制;请进行查看!<a href="admin.php?ac=views&fileurl=knowledge&do=edit&id=48&type=2">点击查看>></a></td></tr><tr><td class=xl24 width=64 x:num>未读</td><td class=xl24 width=64 x:num>王柯</td><td class=xl24 width=64 x:num>2014.01.22 13:01:45</td><td class=xl24 width=64 x:num>管理员,唐义,韩峰,周美川,冯登亮,杨文坚,王政洲,甘健,李洁,高明,贺云,罗丽娟,冷雪丽,吴朗,测试,李庆友,吴守清,张兵,罗薇,吴勇,杨萍,侯军,潘晔,魏方卓,李征宇,陈彦,黄宇,薛兵,罗厚国,沈巍,王晓华,王远来,朱蓉,卢强,刘明忠,杨建红,王丹,苟会琼,李灵英,黄河,包文,杨黎,王柯,刘燕,李立峰,牟敏,李华聪,王强,蒲应军,冯典林,刘登安,王晓梅,蒋蓉,王正洪,李抒玲,杨丽,覃佳,罗宇,汪明辉,彭静耘,蒋光文,刘伯庆,何成俊,刘莉,侯毅,曾文兵,张潇元,阳伟明,韦俊红,李剑波,姚立,兰素华,黄代利,曾磊,雷蕾,曾维忠,蒲熹漫,李宇,杨邦华,蔡广兵,韩敏,刘晓春,朱建凌,王思铁,向兴华,冯克努,王红虹,刘小林,代琦,张建国,郑持平,李欣,许鉴,康玲,罗庆,张凤英,江志伟,魏永志,青成,罗斯华,胥谊,王俊赛,王晓蓉,张晓东,敬松,李莉红,张蔚,姜琼,彭海,屈鹏,杨其林,王利,李廷亮,金洲,刘譓,王凤姣,王鹏,黄清彪,王红跃,杨建成,李  峰,林晓燕,耿福元,姚发俊,唐正州,刘  宇,李晓东,余丰君,潘  玲,周姗姗,马永杰,钱  锟,曹  亮,樊  涛,王  婷,李开远,李  萌,张庆敏,张德华,曾小琴,陈俊羽,刘喜艳,张  倩,孙祥博,蔡亚军,吴红艳,贾  寅,杨皓,刘蔚,张钦城,:您有一个文件需要阅读,名称为：test1;请进行查看!<a href="admin.php?ac=views&fileurl=knowledge&do=edit&id=5&type=6">点击查看>></a></td></tr>

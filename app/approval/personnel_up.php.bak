@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<link rel="stylesheet" type="text/css" href="template/default/content/css/style.css">
+<title>Office 515158 2011 OA办公系统</title>
+ 
+</head>
+<body class="bodycolor">
+<table width="90%" border="0" align="center" cellpadding="3" cellspacing="0" class="small">
+  <tr>
+    <td class="Big"><img src="template/default/content/images/notify_new.gif" align="absmiddle"><span class="big3"> <?php echo $row['title']?></span>&nbsp;&nbsp;&nbsp;&nbsp;
+	<span style="font-size:12px; float:right; margin-right:20px;">
+	<a href="admin.php?ac=<?php echo $ac?>&fileurl=<?php echo $fileurl?>&type=1" style="font-size:12px;"><< 返回审批列表</a>&nbsp;|&nbsp;<a href="#" onClick="window.open('admin.php?ac=<?php echo $ac?>&fileurl=<?php echo $fileurl?>&do=appflow&fileid=<?php echo $fileid?>&apptype=<?php echo $apptype?>&test=<?php echo $filenumber?>', 'newwindow', 'height=550, width=500, top=6, right=0, toolbar=no, menubar=no, scrollbars=yes, resizable=no,location=no, status=no')">
+      <font color="red">查看审批记录</font>
+</a></span>
+    </td>
+  </tr>
+</table>
+
+<script Language="JavaScript"> 
+function CheckForm()
+{
+   if(document.save.staff.value=="")
+   { alert("下一步审批人员不能为空！");
+     document.save.staff.focus();
+     return (false);
+   }
+   return true;
+}
+function sendForm()
+{
+   if(CheckForm())
+      document.save.submit();
+}
+</script>
+	<form name="save" method="post" action="admin.php?ac=<?php echo $ac?>&do=personnel_up&fileurl=<?php echo $fileurl?>&apptype=<?php echo $apptype?>">
+	<input type="hidden" name="view" value="edit" />
+	<input type="hidden" name="fileid" value="<?php echo $row['id']?>" />
+	<input type="hidden" name="oldappkey" value="<?php echo $oldappkey?>" />
+	<input type="hidden" name="oldappkey1" value="<?php echo $oldappkey1?>" />
+	<input type="hidden" name="perid" value="<?php echo $perid?>" />
+	<input type="hidden" name="oldappflow" value="<?php echo getGP('oldappflow','P')?>" />
+	<input type="hidden" name="content" value="<?php echo getGP('content','P')?>" />
+<table class="TableBlock" border="0" width="90%" align="center">
+	<tr>
+      <td nowrap class="TableHeader" colspan="2"><b>&nbsp;审批操作</b></td>
+    </tr>
+	
+	<?php
+			echo '<tr><td nowrap class="Tablecenter"> 下一步审批人员：</td>';
+			echo '<td class="TableData">';
+			//设定下一步审批信息
+			echo '<input type="hidden" name="appflow" value="'.$flow['fid'].'" />';
+			echo '<input type="hidden" name="appkey" value="'.$flow['flowkey1'].'" />';
+			echo '<input type="hidden" name="appkey1" value="'.$flow['flowkey2'].'" />';
+			if($flow['flowkey1']=='2'){
+			  //单人审批
+				  if($flow['flowflag']=='1'){//可选
+					  get_pubuser(1,"staff",'',"+选择审批人员",120,20);
+				  }else{//不可选
+				  
+					  get_pubuser(1,"staff",'',"+选择审批人员",120,20,$flow['flowuser']);
+				  }
+			  }else{
+			  //多人审批
+				  if($flow['flowflag']=='1'){//可选
+					  get_pubuser(2,"staff",$flow['flowuser'],"+选择审批人员",40,4);
+				  }else{
+					  //不可选
+					  echo "<textarea name='staff' cols='40' rows='4'";
+					  echo " readonly style='background-color:#F5F5F5;color:#006600;'>";
+					  echo $flow['flowuser']."</textarea>";
+					  echo "<input type='hidden' name='staffid' value='".get_realid($flow['flowuser'])."' />";
+				  }
+			  }
+			  echo '<br>'.get_smsbox("审批人员","work").'</td></tr>';
+	?>
+	
+	<tr align="center" class="TableControl">
+      <td colspan="2" nowrap height="35">
+<input type="button" name="Submit" value="确定审批人" class="BigButtonBHover" onclick="sendForm();"> 	  </td>
+    </tr>
+</table>
+
+
+</form>
+
+</body>
+</html>
