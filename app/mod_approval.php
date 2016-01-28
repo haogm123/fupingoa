@@ -170,7 +170,7 @@ if ($do == 'list') {
 		$sql = "SELECT * FROM ".DB_TABLEPRE."approval WHERE $wheresql order by id desc LIMIT $offset, $pagesize";
 	}
 	$result = $db->fetch_all($sql);
-//	print_r($sql);
+    var_dump($sql);
 	include_once('approval/list.php');
 
 }elseif ($do == 'mana') {
